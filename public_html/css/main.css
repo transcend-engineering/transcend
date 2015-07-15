@@ -1,0 +1,176 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  /* Medium devices (desktops, 992px and up) */
+@media(max-width: 992px){
+    .help{
+        position: fixed;
+        top: 90%;
+        left: 85%;
+    }
+    .icon{
+        font-size:30px;
+    }
+}
+/*TODO fix this so it only has 1 query*/
+@media(min-width: 992px){
+    .help{
+        left: 50%;
+        top: 85%;
+        position: absolute;
+    }
+    .title span{
+        color: #070716;
+    }
+    .icon{
+        font-size: 40px;
+    }
+}
+   
+@font-face{
+    font-family: "Bebas Neue Bold";
+    /*src: url("/Windows/Fonts/BebasNeue Bold.otf");*/
+    src: url("../fonts/BebasNeue Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.icon{
+    color: white;
+}
+.icon:hover{
+    color: #EA0B8C 
+}
+/*
+.col-md-6{
+    margin: 0px;
+    padding: 0px;
+}*/
+#uber{
+    position: relative;
+    background-color: #070716;
+    height: 100vh;
+    /*width: 50%;*/
+}
+#lyft{
+    position: relative;
+    background-color: #EA0B8C;
+    height: 100vh;
+    /*width: 50%;*/
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.codeuber{
+/*    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;*/
+    color: white;
+    font-size: 28px;
+    border-color: white;
+    border-style: dotted;
+    border-width: 4px;
+    text-align: center;
+    padding: 0px 10px;
+    
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.codelyft{
+/*    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;*/
+    padding: 0px 10px;
+    color: white;
+    font-size: 28px;
+    border-color: white;
+    border-style: dotted;
+    border-width: 4px;
+    text-align: center;
+    
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.codeuber:hover{
+    border-color: #EA0B8C;
+    cursor:pointer;
+}
+.codelyft:hover{
+    border-color: #070716;
+    cursor:pointer;
+}
+
+div.tooltip-inner {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    font-size: 20px;
+}
+.title{
+    font-family: "Bebas Neue Bold", sans-serif;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    font-size: 84px;
+    left: 51.5%;
+    transform: translate(-50%);
+    top: 0vh;
+    color: #EA0B8C
+}
+.help{
+    font-family: "Bebas Neue Bold", sans-serif;
+    z-index: 10;
+    font-size: 40px;
+    transform: translate(-50%);
+    color: #323232;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.help:hover{
+    margin-top: -1px;
+    width:52px;
+    height:52px;
+    cursor: pointer;
+
+    color: #EA0B8C;
+}
+.help > p{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.download{
+    text-align: center;
+}
+.tooltip{
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
