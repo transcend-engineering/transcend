@@ -1,32 +1,45 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-  /* Medium devices (desktops, 992px and up) */
-
-body{
-    padding: 0px;
-    margin: 0px;
-}
-#main{
-    position: relative;
-    height: 100vh;
-    background-color: #05a3c6;
-}
-.logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* --- Media Queries -- */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    .stats {
+        font-size: 1.1em;
+    }
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+    .stats {
+        font-size: 1.3em;
+    }
+}
 
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    .stats {
+        font-size: 1.5em;
+    }
+}
 
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {}
 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {}
 
+.section-padding {
+    padding: 40px 0 100px;
+}
 
+section {
+    height: 90vh;
+}
 
+#logoBanner {
+    display: block;
+    margin: auto;
+    padding-top: 30%;
+}
 
-
-
+#one {
+    background: #1CA3C4;
+}
