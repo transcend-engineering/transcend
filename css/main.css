@@ -31,7 +31,7 @@
 }
 
 section {
-    height: 90vh;
+    height: 100vh;
 }
 
 #logoBanner {
@@ -42,4 +42,9 @@ section {
 
 #one {
     background: #1CA3C4;
+    color: white;
+}
+
+#one h1 {
+    font-size: 2.5em;
 }
