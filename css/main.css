@@ -1,0 +1,32 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  /* Medium devices (desktops, 992px and up) */
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#main{
+    position: relative;
+    height: 100vh;
+    background-color: #05a3c6;
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
