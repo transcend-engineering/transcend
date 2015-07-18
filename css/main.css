@@ -30,19 +30,18 @@
     padding: 40px 0 100px;
 }
 
-section {
-    height: 100vh;
+#hero {
+    height: 90vh;
+}
+
+section#hero {
+    background: #1CA3C4;
 }
 
 #logoBanner {
     display: block;
     margin: auto;
     padding-top: 30%;
-}
-
-#one {
-    background: #1CA3C4;
-    color: white;
 }
 
 #one h1 {
