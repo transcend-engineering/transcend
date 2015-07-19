@@ -1,6 +1,7 @@
 /* --- Universal -- */
 body {
     min-height: 500px;
+    background: #1CA3C4;
 }
 
 a {
@@ -21,9 +22,10 @@ a:focus {
 
 .sectionHeader {
     margin-top: 0;
-    font-size: 2.6em;
+    font-size: 2em;
     display: table-cell;
     padding-left: 15px;
+    color: #4A4A4A;
 }
 
 .sectionSerif {
@@ -36,10 +38,6 @@ a:focus {
     color: #4A4A4A;
     font-size: 1.35em;
     text-align: left;
-}
-
-.sectionHeader {
-    color: #4A4A4A;
 }
 
 .sectionLines {
@@ -64,27 +62,6 @@ body {
 #heroSubtext {
     font-family: 'Lato', sans-serif;
 }
-
-/* --- Media Queries -- */
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {}
 
 /* --- hero -- */
 /* nav */
@@ -123,7 +100,8 @@ body {
 #heroDesc {
     color: #00303B;
     margin-top: 40px;
-    font-size: 1.1em;
+    margin-bottom: 0;
+    font-size: 1.25em;
 }
 
 .sponsorBtnLink {
@@ -132,24 +110,29 @@ body {
     color: white;
     
     font-size: 1.1em;
-    margin-top: 20px;
+    margin-top: 25px;
     padding: 6px 18px 6px 18px;
 }
 
 #hero {
-    height: 80vh;
-    min-height: 400px;
+    height: 468px;
+    min-height: 468px;
+    
+    background: #1CA3C4;
     
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-section#hero {
-    background: #1CA3C4;
+.heroContent {
+    margin-top: 50px;
+    padding: 0 10px 0 10px;
 }
 
 /* --- one --*/
-#one {}
+#one {
+    background: white;
+}
 
 #one .sectionSerif {
     margin-top: 0;
@@ -200,3 +183,46 @@ section#hero {
 .teamPic {
     margin: 20px 0 20px;
 }
+
+/* --- Media Queries -- */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    .sponsorBtnLink {
+        margin-top: 40px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+    .sectionHeader {
+        font-size: 2.6em;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    #heroText b {
+        font-size: 1.5em;
+    }
+    
+    #heroSubtext {
+        font-size: 2.5em;
+    }
+    
+    #navLogo {
+        position: absolute;
+        left: 6%;
+    }
+    
+    #navLinks {
+        position: absolute;
+        right: 6%;
+        font-size: 1em;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {}
