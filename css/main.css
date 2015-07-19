@@ -70,18 +70,15 @@ body {
 }
 
 #navLinks {
-    margin-top: 10px;
+    display: none;
+    margin-top: 25px;
 }
 
 #navLinks a {
     font-size: 1em;
-    color: #7CC7D8;
-    
+/*    color: #7CC7D8;*/
+    font-size: 1.25em;
     margin: 0 15px 0 15px;
-}
-
-#navLinks a:hover {
-    color: #00303B;
 }
 
 #heroText {
@@ -101,7 +98,7 @@ body {
     color: #00303B;
     margin-top: 40px;
     margin-bottom: 0;
-    font-size: 1.25em;
+    font-size: 1.35em;
 }
 
 .sponsorBtnLink {
@@ -109,9 +106,21 @@ body {
     border-radius: 40px;
     color: white;
     
+    outline: none;
+    transition: all 0.3s;
+    
     font-size: 1.1em;
     margin-top: 25px;
     padding: 6px 18px 6px 18px;
+}
+
+.sponsorBtnLink:hover {
+    color: white;
+    background: #75BFD0;
+}
+
+.sponsorBtnLink:focus {
+    color: white;
 }
 
 #hero {
@@ -125,16 +134,16 @@ body {
 }
 
 .heroContent {
-    margin-top: 50px;
+    margin-top: 75px;
     padding: 0 10px 0 10px;
 }
 
-/* --- one --*/
-#one {
+/* --- about --*/
+#about {
     background: white;
 }
 
-#one .sectionSerif {
+#about .sectionSerif {
     margin-top: 0;
     margin-bottom: 40px;
 }
@@ -152,8 +161,8 @@ body {
     margin: 17px 0 17px 0;
 }
 
-/* --- two --*/
-#two {
+/* --- sponsor --*/
+#sponsor {
     background: #F4F4F4;
 }
 
@@ -211,13 +220,14 @@ body {
     
     #navLogo {
         position: absolute;
-        left: 6%;
+        left: 7%;
+        top: 8%;
     }
     
     #navLinks {
+        display: block;
         position: absolute;
         right: 6%;
-        font-size: 1em;
     }
 }
 
@@ -226,3 +236,27 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {}
+
+/* nav effect */
+.cl-effect-15 a {
+	color: rgba(0,0,0,0.2);
+	font-weight: 700;
+	text-shadow: none;
+}
+
+.cl-effect-15 a::before {
+	color: #fff;
+	content: attr(data-hover);
+    position: absolute;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.cl-effect-15 a:hover::before,
+.cl-effect-15 a:focus::before {
+	-webkit-transform: scale(0.975);
+	-moz-transform: scale(0.975);
+	transform: scale(0.975);
+	opacity: 0;
+}
