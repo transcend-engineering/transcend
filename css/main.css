@@ -176,16 +176,16 @@ body {
 }
 
 /* --- three --*/
-#three {
+#team {
     background: #484848;
 }
 
-#three .sectionHeader,
-#three .sectionText {
+#team .sectionHeader,
+#team .sectionText {
     color: white;
 }
 
-#three .sectionSerif {
+#team .sectionSerif {
     margin: 40px 0 20px;
 }
 
