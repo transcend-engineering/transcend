@@ -95,10 +95,11 @@ body {
 }
 
 #heroDesc {
+    font-family: 'Noto Serif', serif;
     color: #00303B;
     margin-top: 40px;
     margin-bottom: 0;
-    font-size: 1.35em;
+    font-size: 1.3em;
 }
 
 .sponsorBtnLink {
@@ -111,7 +112,7 @@ body {
     
     font-size: 1.1em;
     margin-top: 25px;
-    padding: 6px 18px 6px 18px;
+    padding: 7px 18px 7px 18px;
 }
 
 .sponsorBtnLink:hover {
@@ -190,7 +191,7 @@ body {
 }
 
 .teamPic {
-    margin: 20px 0 20px;
+    margin: 20px 0px 20px;
 }
 
 /* --- Media Queries -- */
