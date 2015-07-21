@@ -194,6 +194,23 @@ body {
     margin: 20px 0px 20px;
 }
 
+#teambox img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+    border-radius: 50%;
+}
+#teambox img:hover{
+    -webkit-filter: grayscale(0%);
+    /*filter: grayscale(0%); */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
 /* --- Media Queries -- */
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
