@@ -132,6 +132,25 @@ body {
     
     padding-top: 40px;
     padding-bottom: 40px;
+
+}
+
+.fadeFirst {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+}
+
+.fadeSecond {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 1s;
+    animation-delay: 1s;
 }
 
 .heroContent {
@@ -146,6 +165,10 @@ body {
 
 #about .sectionSerif {
     margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.exhibits {
     margin-bottom: 40px;
 }
 
