@@ -201,7 +201,10 @@ body {
 
 /* --- three --*/
 #team {
-    background: #484848;
+    background-image: url("/img/bgPattern.png");
+    background-size: 500px 500px;
+    background-repeat: repeat;
+    
 }
 
 #team .sectionHeader,
