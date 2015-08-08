@@ -46,6 +46,11 @@ a:focus {
     float: left;
 }
 
+.rightLine {
+  display: none;
+  margin-left: -15px;
+}
+
 /* --- Typography -- */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -199,12 +204,11 @@ body {
     margin-bottom: 20px;
 }
 
-/* --- three --*/
+/* --- team --*/
 #team {
     background-image: url("/img/bgPattern.png");
     background-size: 500px 500px;
     background-repeat: repeat;
-    
 }
 
 #team .sectionHeader,
@@ -236,6 +240,18 @@ body {
     -ms-filter: "FlipH";
 }
 
+/* --- footer --- */
+#footer {
+  background: #171D1C;
+  padding: 20px;
+  padding-bottom: 7px;
+}
+
+#uwLogo {
+  height: 40px;
+  margin: 5px;
+  padding-bottom: 5px;
+}
 
 /* --- Media Queries -- */
 /* Custom, iPhone Retina */
@@ -250,6 +266,15 @@ body {
     .sectionHeader {
         font-size: 2.6em;
     }
+  
+  .rightLine {
+    display: block;
+  }
+  
+  .linesWordContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Small Devices, Tablets */
