@@ -21,22 +21,25 @@ a:focus {
 }
 
 .sectionHeader {
+    letter-spacing: -1px;
     margin-top: 0;
     font-size: 2em;
+    font-weight: 700;
     display: table-cell;
     padding-left: 15px;
-    color: #4A4A4A;
+    color: #444;
 }
 
 .sectionSerif {
     font-style: italic;
-    color: #CECECE;
+    color: #aaa;
     font-size: 1.35em;
 }
 
 .sectionText {
-    color: #4A4A4A;
+    color: #444;
     font-size: 1.35em;
+    line-height: 1.5;
     text-align: left;
 }
 
@@ -81,20 +84,21 @@ body {
 
 #navLinks a {
     font-size: 1em;
-/*    color: #7CC7D8;*/
+    font-weight: 400;
     font-size: 1.25em;
     margin: 0 15px 0 15px;
 }
 
 #heroText {
     color: white;
-    font-size: 2.75em;
+    font-size: 3em;
+    letter-spacing: -1px;
     margin-bottom: 0;
 }
 
 #heroSubtext {
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     
     margin-top: 1px;  
 }
@@ -201,7 +205,13 @@ body {
 }
 
 #sponsorApply {
-    margin-bottom: 20px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.helpPara {
+    text-align: center;
 }
 
 /* --- team --*/
@@ -243,6 +253,7 @@ body {
 /* --- footer --- */
 #footer {
   background: #171D1C;
+  color: #444;
   padding: 20px;
   padding-bottom: 7px;
 }
@@ -264,7 +275,7 @@ body {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
     .sectionHeader {
-        font-size: 2.6em;
+        font-size: 3em;
     }
   
   .rightLine {
@@ -274,6 +285,11 @@ body {
   .linesWordContainer {
     margin-left: auto;
     margin-right: auto;
+  }
+  
+  .sectionLines {
+    position: relative;
+    top: -3px;
   }
 }
 
