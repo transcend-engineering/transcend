@@ -274,7 +274,7 @@ body {
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
     .sponsorBtnLink {
-        margin-top: 40px;
+        margin-top: 35px;
     }
 }
 
@@ -299,6 +299,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 653px) {
+  .sponsorBtnLink {
+        margin-top: 40px;
+    }
+}
+
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
     #heroText b {
@@ -321,12 +327,6 @@ body {
         right: 6%;
     }
 }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {}
 
 /* nav links effect */
 .cl-effect-15 a {
