@@ -33,13 +33,14 @@ a:focus {
 .sectionSerif {
     font-style: italic;
     color: #aaa;
-    font-size: 1.35em;
+    font-size: 1.425em;
+    line-height: 1.6;
 }
 
 .sectionText {
     color: #444;
-    font-size: 1.35em;
-    line-height: 1.5;
+    font-size: 1.425em;
+    line-height: 1.6;
     text-align: left;
 }
 
@@ -83,9 +84,8 @@ body {
 }
 
 #navLinks a {
-    font-size: 1em;
     font-weight: 400;
-    font-size: 1.25em;
+    font-size: 1.45em;
     margin: 0 15px 0 15px;
 }
 
@@ -108,7 +108,7 @@ body {
     color: #00303B;
     margin-top: 40px;
     margin-bottom: 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .sponsorBtnLink {
@@ -119,9 +119,12 @@ body {
     outline: none;
     transition: all 0.3s;
     
-    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1.15em;
     margin-top: 25px;
-    padding: 7px 18px 7px 18px;
+    padding: 17px 32px 17px 32px;
 }
 
 .sponsorBtnLink:hover {
@@ -134,7 +137,7 @@ body {
 }
 
 #hero {
-    height: 468px;
+    height: 485px;
     min-height: 468px;
     
     background: #1CA3C4;
@@ -192,6 +195,7 @@ body {
 
 #winningList li {
     margin: 17px 0 17px 0;
+    font-size: 1.3em;
 }
 
 /* --- sponsor --*/
@@ -206,6 +210,8 @@ body {
 
 #sponsorApply {
     letter-spacing: -1px;
+    color: #444;
+    font-size: 26px;
     font-weight: 600;
     margin-bottom: 10px;
 }
