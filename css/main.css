@@ -69,18 +69,18 @@ body {
 }
 
 #heroSubtext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 /* --- hero -- */
 /* nav */
 #logo {
-    margin: 0 auto;
+    margin: 25px auto -25px auto;
 }
 
 #navLinks {
     display: none;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 #navLinks a {
@@ -318,7 +318,11 @@ body {
     #navLogo {
         position: absolute;
         left: 7%;
-        top: 8%;
+        top: -35%;
+    }
+  
+    #logo {
+        margin: 0 auto;
     }
     
     #navLinks {
