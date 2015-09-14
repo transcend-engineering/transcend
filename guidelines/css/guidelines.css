@@ -44,6 +44,15 @@ a:focus {
     text-align: left;
 }
 
+.sectionText li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footnotes {
+  font-size: 10px;
+}
+
 .sectionLines {
     display: table-cell;
     vertical-align: middle;
