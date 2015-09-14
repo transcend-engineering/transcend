@@ -262,7 +262,20 @@ body {
     filter: FlipH;
     -ms-filter: "FlipH";
 }
-
+#dropdownMenu1{
+    color: white;
+}
+.dropdown-navLinks{
+    color: #171D1C;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.dropdown-menu li:hover{
+    background-color: transparent;
+}
 /* --- footer --- */
 #footer {
   background: #171D1C;
