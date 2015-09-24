@@ -197,9 +197,47 @@ body {
     font-size: 1.3em;
 }
 
-/* --- sponsor --*/
-#sponsor {
-    background: #F4F4F4;
+/* --- sponsors --*/
+.sponsor-link {
+  display: block;
+  margin: 30px auto;
+  height: 120px;
+}
+
+.sponsor-link img {
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+#sponsors {
+  background: #F4F4F4;
+}
+
+#sponsors .sectionSerif {
+  color: #999;
+  margin-bottom: 50px;
+}
+
+#madworks {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  
+  max-width: 332.25px;
+  max-height: 42px;
+}
+
+#capital {
+  width: 220px;
+  height: 83.5px;
+}
+
+.weinert {
+  margin-top: 10px;
+}
+
+/* --- join --*/
+#join {
+    background: #FFF;
 }
 
 .linesWordContainer {
@@ -212,7 +250,7 @@ body {
     color: #444;
     font-size: 26px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .helpPara {
