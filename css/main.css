@@ -199,11 +199,13 @@ body {
 
 /* --- sponsors --*/
 .sponsor-link {
-  margin: 30px auto;
-  height: 120px;
+  display: block;
+  
 }
 
 .sponsor-link img {
+  display: block;
+  margin: 30px auto;
   -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
 }
