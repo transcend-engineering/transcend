@@ -206,6 +206,7 @@ body {
 
 .sponsor-link img {
   width: 80%;
+  max-width: 300px;
   display: block;
   margin: 30px auto;
   -webkit-filter: grayscale(100%);
@@ -333,7 +334,13 @@ body {
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
     .sponsorBtnLink {
-        margin-top: 35px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .sponsorBtnLink {
+        margin-top: 57.5px;
     }
 }
 
