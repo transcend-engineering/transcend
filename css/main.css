@@ -199,12 +199,12 @@ body {
 }
 
 /* --- sponsors --*/
-.sponsor-link {
+.s-logos {
   display: block;
   
 }
 
-.sponsor-link img {
+.s-logos img {
   width: 80%;
   max-width: 300px;
   display: block;

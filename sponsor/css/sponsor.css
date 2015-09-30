@@ -228,13 +228,13 @@ body {
 }
 
 /* --- sponsors --*/
-.sponsor-link {
+.s-logos {
   display: block;
   margin: 30px auto;
   height: 120px;
 }
 
-.sponsor-link img {
+.s-logos img {
   -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
 }
