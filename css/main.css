@@ -51,6 +51,12 @@ a:focus {
     float: left;
 }
 
+.sectionAtn {
+  color: #1CA3C4;
+  font-size: 1.425em;
+  margin-bottom: 10px;
+}
+
 .rightLine {
   display: none;
   margin-left: -15px;
