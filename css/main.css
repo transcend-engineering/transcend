@@ -96,6 +96,14 @@ body {
     margin: 0 15px 0 15px;
 }
 
+#navLinks ul {
+  list-style: none;
+}
+
+#navLinks li {
+  display: inline-block;
+}
+
 #heroText {
     color: white;
     font-size: 3em;

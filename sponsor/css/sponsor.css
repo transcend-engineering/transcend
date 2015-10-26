@@ -92,6 +92,14 @@ body {
     margin-top: 5px;
 }
 
+#navLinks ul {
+  list-style: none;
+}
+
+#navLinks li {
+  display: inline-block;
+}
+
 #navLinks a {
     font-weight: 400;
     font-size: 1.45em;
