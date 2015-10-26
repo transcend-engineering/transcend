@@ -207,14 +207,11 @@ body {
 /* --- sponsors --*/
 .s-logos {
   display: block;
-  
+  margin: 30px auto;
+  height: 120px;
 }
 
 .s-logos img {
-  width: 80%;
-  max-width: 300px;
-  display: block;
-  margin: 30px auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -243,6 +240,11 @@ body {
 
 .weinert {
   margin-top: 10px;
+}
+
+.coe {
+  width: 80%;
+  max-width: 300px;
 }
 
 /* --- join --*/
@@ -346,12 +348,12 @@ body {
 
 #footer-links li {
     margin: 3px;
-    color: white;
+    color: #555;
     display: inline-block;
   }
 
 #footer-links li:hover {
-      color: color(hero-alpha);
+      color: #333;
 }
 
 
