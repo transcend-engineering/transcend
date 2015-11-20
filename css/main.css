@@ -152,8 +152,7 @@ body {
 }
 
 #hero {
-    height: 485px;
-    min-height: 468px;
+    height: 505px;
     
     background: #1CA3C4;
     
@@ -377,6 +376,10 @@ body {
     .sponsorBtnLink {
         margin-top: 57.5px;
     }
+  
+  #hero {
+    height: 600px;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -398,12 +401,20 @@ body {
     position: relative;
     top: -3px;
   }
+  
+  #hero { 
+    height: 555px;
+  }
 }
 
 @media only screen and (min-width: 653px) {
   .sponsorBtnLink {
         margin-top: 40px;
     }
+  
+  #hero { 
+    height: 535px;
+  }
 }
 
 /* Small Devices, Tablets */
