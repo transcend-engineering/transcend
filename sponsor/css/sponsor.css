@@ -144,6 +144,11 @@ body {
     padding: 17px 32px 17px 32px;
 }
 
+#donateBtn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+} 
+
 .sponsorBtnLink:hover {
     color: white;
     background: #75BFD0;
