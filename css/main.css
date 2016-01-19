@@ -184,6 +184,14 @@ body {
 }
 
 /* --- about --*/
+#sketch {
+  height: 347px;
+  width: 500px;
+  
+  pointer-events: none;
+  margin-bottom: 30px;
+}
+
 #about {
     background: white;
 }
