@@ -262,6 +262,23 @@ body {
   max-width: 300px;
 }
 
+#wceps {
+  margin-bottom: 30px;
+  width: 70%;
+  max-width: 180px;
+}
+
+#zendesk {
+  margin-top: 40px;
+  width: 70%;
+  max-width: 300px;
+}
+
+#wrp {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
 /* --- join --*/
 #join {
     background: #FFF;

@@ -249,7 +249,7 @@ body {
 
 .s-logos img {
   -webkit-filter: grayscale(100%);
-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 #sponsors {
@@ -277,6 +277,30 @@ filter: grayscale(100%);
 .weinert {
   margin-top: 10px;
 }
+
+.coe {
+  width: 80%;
+  max-width: 300px;
+}
+
+#wceps {
+  margin-bottom: 30px;
+  width: 70%;
+  max-width: 180px;
+}
+
+#zendesk {
+  margin-top: 40px;
+  width: 70%;
+  max-width: 300px;
+}
+
+#wrp {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+
 
 
 
