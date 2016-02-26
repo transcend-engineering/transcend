@@ -1,10 +1,4 @@
-/* --- Dash --- */
-
-#tm-logo {
-  height: 25%;
-  width: 25%;
-}
-
+/* --- Day of --- */
 .list-group-item {
   text-align: left;
   
@@ -104,7 +98,6 @@ body {
     margin-top: 5px;
 }
 
-
 #navLinks ul {
   list-style: none;
 }
@@ -157,6 +150,11 @@ body {
     padding: 17px 32px 17px 32px;
 }
 
+#donateBtn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+} 
+
 .sponsorBtnLink:hover {
     color: white;
     background: #75BFD0;
@@ -167,14 +165,12 @@ body {
 }
 
 #hero {
-/*    height: 100px;*/
+    height: 380px;
     
     background: #1CA3C4;
     
-/*
     padding-top: 40px;
     padding-bottom: 40px;
-*/
 }
 
 .fadeFirst {
@@ -196,13 +192,13 @@ body {
 }
 
 .heroContent {
-    margin-top: 40px;
+    margin-top: 75px;
     padding: 0 10px 0 10px;
 }
 
 /* --- about --*/
 #about {
-    background: #1CA3C4;
+    background: white;
 }
 
 #about .sectionSerif {
@@ -228,6 +224,128 @@ body {
     font-size: 1.3em;
 }
 
+/* --- sponsor --*/
+#sponsor {
+    background: #fff;
+}
+
+.linesWordContainer {
+    display: table;
+    margin-bottom: 50px;
+}
+
+#sponsorApply {
+    letter-spacing: -1px;
+    color: #444;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.helpPara {
+    text-align: center;
+}
+
+/* --- sponsors --*/
+.s-logos {
+  display: block;
+  margin: 30px auto;
+  height: 120px;
+}
+
+.s-logos img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#sponsors {
+  background: #F4F4F4;
+}
+
+#sponsors .sectionSerif {
+  color: #999;
+  margin-bottom: 50px;
+}
+
+#madworks {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  
+  max-width: 332.25px;
+  max-height: 42px;
+}
+
+#capital {
+  width: 220px;
+  height: 83.5px;
+}
+
+.weinert {
+  margin-top: 10px;
+}
+
+.coe {
+  width: 80%;
+  max-width: 300px;
+}
+
+#wceps {
+  margin-bottom: 30px;
+  width: 70%;
+  max-width: 180px;
+}
+
+#zendesk {
+  margin-top: 40px;
+  width: 70%;
+  max-width: 300px;
+}
+
+#wrp {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+
+
+
+
+
+/* --- team --*/
+#team {
+    background-image: url("/img/bgPattern.png");
+    background-size: 500px 500px;
+    background-repeat: repeat;
+}
+
+#team .sectionHeader,
+#team .sectionText {
+    color: white;
+}
+
+#team .sectionSerif {
+    margin: 40px 0 20px;
+}
+
+.teamPic {
+    margin: 20px 0px 20px;
+}
+
+#teambox img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+    border-radius: 50%;
+}
+#teambox img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); 
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
 #dropdownMenu1{
     color: white;
 }
@@ -242,31 +360,6 @@ body {
 .dropdown-menu li:hover{
     background-color: transparent;
 }
-
-/* --- prizes ---*/
-.prize img {
-  width: 80%;
-  max-width: 300px;
-}
-
-.prize h3 {
-  letter-spacing: -1px;
-  font-size: 2em;
-  font-weight: 700;
-  color: #444;
-}
-
-.prize h4 {
-  letter-spacing: -1px;
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #444;
-}
-
-.prize p {
-  text-align: center;
-}
-
 /* --- footer --- */
 #footer {
   background: #171D1C;
