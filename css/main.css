@@ -262,6 +262,11 @@ body {
   max-width: 300px;
 }
 
+.fourfour {
+  width: 80%;
+  max-width: 250px;
+}
+
 #wceps {
   margin-bottom: 30px;
   width: 70%;
