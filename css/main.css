@@ -284,6 +284,11 @@ body {
   max-width: 300px;
 }
 
+#leeward {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
 /* --- join --*/
 #join {
     background: #FFF;
