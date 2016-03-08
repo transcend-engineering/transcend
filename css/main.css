@@ -42,7 +42,7 @@ a:focus {
     color: #444;
     font-size: 1.425em;
     line-height: 1.6;
-    text-align: justify ;
+    text-align: left ;
 }
 
 .sectionLines {
@@ -185,8 +185,9 @@ body {
 
 /* --- about --*/
 #sketch {
-  height: 347px;
-  width: 500px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
   
   pointer-events: none;
   margin-bottom: 30px;
