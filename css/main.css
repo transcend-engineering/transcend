@@ -109,6 +109,7 @@ body {
     font-size: 3em;
     letter-spacing: -1px;
     margin-bottom: 0;
+    z-index: -1;
 }
 
 #heroSubtext {
@@ -357,6 +358,7 @@ body {
 }
 .dropdown-navLinks{
     color: #171D1C;
+    z-index: 10;
 }
 .dropdown-menu{
     background-color: transparent;
@@ -502,4 +504,21 @@ body {
 	-moz-transform: scale(0.975);
 	transform: scale(0.975);
 	opacity: 0;
+}
+
+#dropdownMenu1{ 
+  background: none;
+  border: none;
+  outline: 0; 
+}
+button:active{
+  box-shadow: none !important;
+}
+
+#navLinks ul li{
+  vertical-align: middle;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
+  background: none;
 }

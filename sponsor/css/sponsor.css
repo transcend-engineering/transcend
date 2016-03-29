@@ -453,3 +453,20 @@ body {
 	transform: scale(0.975);
 	opacity: 0;
 }
+
+#dropdownMenu1{ 
+  background: none;
+  border: none;
+  outline: 0; 
+}
+button:active{
+  box-shadow: none !important;
+}
+
+#navLinks ul li{
+  vertical-align: middle;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
+  background: none;
+}

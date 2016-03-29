@@ -27,22 +27,30 @@
       <div id="navLinks" class="cl-effect-15">
         <ul>
           <li><a href="/calendar" class="dropdown-navLinks" data-hover="calendar">calendar</a></li>
-          <li><a href="/competition" class="dropdown-navLinks" data-hover="competition">competition</a></li>
-          <!--
-          <li><a href="/guidelines" class="dropdown-navLinks" data-hover="guidelines">guidelines</a></li>
-          <li><a href="/prizes" class="dropdown-navLinks" data-hover="prizes">prizes</a></li>
-          <li><a href="/sponsor" class="dropdown-navLinks" data-hover="sponsor">sponsor</a></li>
--->
+          <li>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <a  class="dropdown-navLinks" data-hover="competition">competition <span class="caret"></span></a>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="/competition" class="dropdown-navLinks" data-hover="about">about</a></li>
+                <li><a href="/guidelines" class="dropdown-navLinks" data-hover="guidelines">guidelines</a></li>
+                <li><a href="/prizes" class="dropdown-navLinks" data-hover="prizes">prizes</a></li>
+                <li><a href="/sponsor" class="dropdown-navLinks" data-hover="sponsor">sponsor</a></li>
+              </ul>
+            </div>
+          </li>
           <!--<li><a href="https://docs.google.com/forms/d/1FG7IssF_kJDy79gUYylQhmNgcyfZHAfUhZzUQhHi9Qg/edit" class="dropdown-navLinks" data-hover="mentorship">mentorship</a></li>-->
         </ul>
       </div>
     </nav>
 
     <div class="heroContent ">
-      <a href="/guidelines"><h1 id="heroText" class="animated fadeIn fadeFirst"><b>Transcend Engineering</b></h1>
+      <!--TODO is this bootstrap column well formatted?-->
+      <div class="col-md-8 col-md-offset-2"><h1 id="heroText" class="animated fadeIn fadeFirst"><b>Transcend Engineering</b></h1>
             <h3 id="heroSubtext" class="animated fadeIn fadeFirst"></h3>
-            <p id="heroDesc" class="animated fadeIn fadeFirst">UW-Madison's hub for creative thinking, entrepreneurship, and innovation.</p></a>
-      <a href="#join" class="btn sponsorBtnLink animated fadeIn fadeSecond">JOIN TRANSCEND</a>
+            <p id="heroDesc" class="animated fadeIn fadeFirst">UW-Madison's hub for creative thinking, entrepreneurship, and innovation.</p>
+      <a href="#join" class="btn sponsorBtnLink animated fadeIn fadeSecond">JOIN TRANSCEND</a></div>
     </div>
 
   </section>

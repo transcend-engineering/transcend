@@ -30,9 +30,19 @@
                                     <ul>
 <!--<li><a href="/competition" class="dropdown-navLinks" data-hover="competition">competition</a></li>-->
                       <li><a href="/calendar" class="dropdown-navLinks" data-hover="calendar">calendar</a></li>
-                      <li><a href="/guidelines" class="dropdown-navLinks" data-hover="guidelines">guidelines</a></li>
-                      <li><a href="/prizes" class="dropdown-navLinks" data-hover="prizes">prizes</a></li>
-                      <li><a href="/sponsor" class="dropdown-navLinks" data-hover="sponsor">sponsor</a></li>
+                      <li>
+                        <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <a  class="dropdown-navLinks" data-hover="competition">competition <span class="caret"></span></a>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="/competition" class="dropdown-navLinks" data-hover="about">about</a></li>
+                            <li><a href="/guidelines" class="dropdown-navLinks" data-hover="guidelines">guidelines</a></li>
+                            <li><a href="/prizes" class="dropdown-navLinks" data-hover="prizes">prizes</a></li>
+                            <li><a href="/sponsor" class="dropdown-navLinks" data-hover="sponsor">sponsor</a></li>
+                        </ul>
+                        </div>
+                    </li>
                       <!--<li><a href="https://docs.google.com/forms/d/1FG7IssF_kJDy79gUYylQhmNgcyfZHAfUhZzUQhHi9Qg/edit" class="dropdown-navLinks" data-hover="mentorship">mentorship</a></li>-->
                     </ul>
 
@@ -40,8 +50,9 @@
         </nav>
    
         <div class="heroContent">
-            <h3 id="heroText" class="animated fadeIn fadeFirst">Sponsor Us</h3>
-            <p id="heroDesc" class="animated fadeIn fadeFirst">Transcend is run by students for students. And is completely free!</p>
+            <!--TODO is this bootstrap column well formatted?-->
+            <div class="col-md-8 col-md-offset-2"><h3 id="heroText" class="animated fadeIn fadeFirst">Sponsor Us</h3>
+            <p id="heroDesc" class="animated fadeIn fadeFirst">Transcend is run by students for students. And is completely free!</p></div>
         </div>
     </section>
     
