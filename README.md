@@ -1,1 +1,1 @@
-### Transcend Competition Site
+### Transcend Site
