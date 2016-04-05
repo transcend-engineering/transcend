@@ -240,6 +240,15 @@ small {
   color: white !important;
 }
 
+.press-link img {
+  
+  max-height: 200px;
+}
+
+img.medium {
+  margin: 0 auto;
+  max-height: 100px;
+}
 
 /* --- sponsors --*/
 
