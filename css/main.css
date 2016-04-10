@@ -178,6 +178,14 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+#hero-prizes{
+  height: 380px;
+  background: #1CA3C4;
+    
+  padding-top: 40px;
+  padding-bottom: 40px;
+ 
+}
 
 .fadeFirst {
     -webkit-animation-duration: 2s;
@@ -411,6 +419,30 @@ img.medium {
 }
 .dropdown-menu li:hover{
     background-color: transparent;
+}
+
+/* --- prizes ---*/
+.prize img {
+  width: 80%;
+  max-width: 300px;
+}
+
+.prize h3 {
+  letter-spacing: -1px;
+  font-size: 2em;
+  font-weight: 700;
+  color: #444;
+}
+
+.prize h4 {
+  letter-spacing: -1px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #444;
+}
+
+.prize p {
+  text-align: center;
 }
 
 /* --- footer --- */
