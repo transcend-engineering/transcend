@@ -31,6 +31,16 @@ a:focus {
     color: #444;
 }
 
+.sectionSubheader {
+  letter-spacing: -1px;
+  font-size: 1.5em;
+  display: table-cell;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-right: 25px;
+  color: #444;
+}
+
 .sectionSerif {
     font-style: italic;
     color: #aaa;
@@ -202,6 +212,15 @@ body {
   margin-bottom: 30px;
 }
 
+#sketch-sm {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 200px;	
+  
+  pointer-events: none;
+  margin-bottom: 30px;
+}		
+
 #about {
     background: white;
 }
@@ -227,6 +246,20 @@ body {
 #winningList li {
     margin: 17px 0 17px 0;
     font-size: 1.3em;
+}
+
+	
+/* --- 2016 --- */
+small {
+  color: white !important;
+}
+.press-link img {
+  
+  max-height: 200px;
+}
+img.medium {
+  margin: 0 auto;
+  max-height: 100px;
 }
 
 /* --- sponsors --*/
@@ -308,7 +341,10 @@ body {
     display: table;
     margin-bottom: 50px;
 }
-
+.linesWordContainer-sm {
+  margin: 20px auto;
+  display: table;
+}
 #sponsorApply {
     letter-spacing: -1px;
     color: #444;
@@ -433,7 +469,10 @@ body {
     .sectionHeader {
         font-size: 3em;
     }
-  
+    .sectionSubheader {
+      font-size: 2.25em;
+    } 
+    
   .rightLine {
     display: block;
   }
