@@ -161,6 +161,11 @@ body {
     padding: 17px 32px 17px 32px;
 }
 
+#donateBtn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+} 
+
 .sponsorBtnLink:hover {
     color: white;
     background: #75BFD0;
@@ -177,14 +182,6 @@ body {
     
     padding-top: 40px;
     padding-bottom: 40px;
-}
-#hero-prizes{
-  height: 380px;
-  background: #1CA3C4;
-    
-  padding-top: 40px;
-  padding-bottom: 40px;
- 
 }
 
 .fadeFirst {
@@ -345,6 +342,9 @@ img.medium {
     background: #F4F4F4;
 }
 
+#sponsor {
+    background: #fff;
+}
 .linesWordContainer {
     display: table;
     margin-bottom: 50px;
