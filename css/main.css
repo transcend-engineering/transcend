@@ -60,10 +60,21 @@ a:focus {
 }
 
 .sectionText {
-    color: #444;
-    font-size: 1.425em;
-    line-height: 1.6;
-    text-align: left ;
+  color: #444;
+  font-size: 1.425em;
+  line-height: 1.6;
+  text-align: left ;
+}
+
+.sectionLink {
+  color: #2E2E7F;
+  font-size: 1.425em;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.sectionLink:hover {
+  color: #2E2E7F;
 }
 
 .sectionText li {
@@ -278,7 +289,21 @@ img.medium {
   max-height: 100px;
 }
 
+/* --- Winners --- */
+.winner img {
+  margin: 10px auto;
+}
+
+.winner .sectionText {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 /* --- sponsors --*/
+.light-bg {
+  background: #FFF !important;
+}
+
 .s-logos {
   display: block;
   margin: 30px auto;
