@@ -1,38 +1,29 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+<section class="text-center" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 ">
+          <p>© <b>Transcend Engineering</b> - a registered student organization at
+            <a href="http://www.wisc.edu/" target="_blank"><img id="uwLogo" src="{{"img/uwlogo_web_sm_fl.png" | prepend: site.baseurl }}" alt="University of Wisconsin-Madison logo"></a>
+          </p>
+        </div>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="row">
+        <div class="col-md-12">
+          <ul id="footer-links">
+            <a href="https://twitter.com/witranscend">
+              <li class="ion-social-twitter"></li>
+            </a>
+            <a href="https://www.facebook.com/transcendwi">
+              <li class="ion-social-facebook"></li>
+            </a>
+            <a href="mailto:transcenduw@gmail.com">
+              <li class="ion-at"></li>
+            </a>
+            <a href="/live">
+              <li class="ion-ios-videocam"></li>
+            </a>
+          </ul>
+        </div>
       </div>
     </div>
-
-  </div>
-
-</footer>
+  </section>
