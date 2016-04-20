@@ -1,5 +1,8 @@
 ---
 title: Calendar
+text: Event Calendar
+desc: All of Madison's entrepreneurial events - aggregated into one, shareable calendar.
+height: 380px
 ---
 <!doctype html>
 <html class="no-js">
@@ -10,15 +13,7 @@ title: Calendar
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-    <section class="text-center" id="hero" style="height: 380px;">
-        {% include nav.html %}   
-        <div class="heroContent">
-            <!--TODO is this bootstrap column well formatted?-->
-            <div class="col-md-8 col-md-offset-2"><h3 id="heroText" class="animated fadeIn fadeFirst">Event Calendar</h3>
-            <p id="heroDesc" class="animated fadeIn fadeFirst">All of Madison's entrepreneurial events - aggregated into one, shareable calendar.</p></div>
-        </div>
-    </section>
+    {% include hero.html text=page.text desc=page.desc height=page.height %}
     
     <section class="text-center section-padding" id="about">
         <div class="container">

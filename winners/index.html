@@ -1,5 +1,8 @@
 ---
 title: Competition - Winners 
+text: 2016 Winners
+desc: Congratulations to those that took home awards from our 2016 competition!
+height: 380px
 ---
 <!doctype html>
 <html class="no-js">
@@ -10,18 +13,7 @@ title: Competition - Winners
   <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-  <section class="text-center" id="hero" style="height: 380px;">
-    {% include nav.html %}
-    <div class="heroContent">
-      <!--TODO is this bootstrap column well formatted?-->
-      <div class="col-md-8 col-md-offset-2">
-        <h3 id="heroText" class="animated fadeIn fadeFirst">2016 Winners</h3>
-        <p id="heroDesc" class="animated fadeIn fadeFirst">Congratulations to those that took home awards from our 2016 competition!</p>
-      </div>
-    </div>
-  </section>
-
+  {% include hero.html text=page.text desc=page.desc height=page.height %}
   <section class="text-center section-padding" id="about">
     <div class="container">
       <div class="row" id="emonix">

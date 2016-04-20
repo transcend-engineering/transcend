@@ -1,5 +1,9 @@
 ---
 title: Competition
+text: Transcend Madison
+subtext: innovation competition
+desc: A cross-collaborative competition showcasing student innovations.
+height: 380px;
 ---
 <!doctype html>
 <html class="no-js">
@@ -11,16 +15,7 @@ title: Competition
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-  <section class="text-center" id="hero" >
-    {% include nav.html %}
-    <div class="heroContent">
-      <!--TODO is this bootstrap column well formatted?-->
-      <div class="col-md-8 col-md-offset-2"><h1 id="heroText" class="animated fadeIn fadeFirst"><b>Transcend Madison</b></h1>
-      <h3 id="heroSubtext" class="animated fadeIn fadeFirst">innovation competition</h3>
-      <p id="heroDesc" class="animated fadeIn fadeFirst">A cross-collaborative competition showcasing student innovations.</p></div>
-    </div>
-  </section>
-
+  {% include hero.html text=page.text desc=page.desc height=page.height subtext=page.subtext %}
   <section class="text-center section-padding" id="about">
     <div class="container">
       <div class="row">
