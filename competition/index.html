@@ -1,91 +1,27 @@
+---
+title: Competition
+text: Transcend Madison
+subtext: innovation competition
+desc: A cross-collaborative competition showcasing student innovations.
+height: 380px;
+---
 <!doctype html>
 <html class="no-js">
 
-<head>
-  <meta charset="utf-8">
-  <title>Competition - Guidelines and Regulations | Transcend - UW: Madison's Entrepreneurial Hub</title>
-  <meta name="description" content="Guidelines and regulations for Transcend's Innovation competition.">
-  <meta name="viewport" content="width=device-width">
-  <link rel="shortcut icon" href="../favicon.ico">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/main.css">
-  <link href="http://fonts.googleapis.com/css?family=Lato:500|Varela+Round|Noto+Serif:400,400italic|Open+Sans:700italic,700,400,400italic" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="../css/animate.css">
-</head>
+{% include head.html %}
 
 <body>
   <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-  <section class="text-center" id="hero" >
-    <nav class="navbar animated fadeIn fadeSecond">
-      <div id="navLogo">
-        <a href="../"><img id="logo" class="" src="../img/logo_pink.svg" alt="Transcend Logo"></a>
-      </div>
-      <div id="navLinks" class="cl-effect-15">
-        <ul>
-          <li><a href="/calendar" class="dropdown-navLinks" data-hover="calendar">calendar</a></li>
-          <li><a href="https://docs.google.com/forms/d/1FG7IssF_kJDy79gUYylQhmNgcyfZHAfUhZzUQhHi9Qg/edit" class="dropdown-navLinks" data-hover="mentorship">mentorship</a></li>
-          <li><a href="https://medium.com/@witranscend" class="dropdown-navLinks" data-hover="blog">blog</a></li>
-          <li>
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                <a  class="dropdown-navLinks" data-hover="competition">competition <span class="caret"></span></a>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="/competition" class="dropdown-navLinks" data-hover="about">about</a></li>
-                <!--<li><a href="/guidelines" class="dropdown-navLinks" data-hover="guidelines">guidelines</a></li>-->
-                <li><a href="/prizes" class="dropdown-navLinks" data-hover="prizes">prizes</a></li>
-                <li><a href="/sponsor" class="dropdown-navLinks" data-hover="sponsor">sponsor</a></li>
-                <li><a href="/winners" class="dropdown-navLinks" data-hover="2016 winners">2016 winners</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
-
-    <div class="heroContent">
-      <!--TODO is this bootstrap column well formatted?-->
-      <div class="col-md-8 col-md-offset-2"><h1 id="heroText" class="animated fadeIn fadeFirst"><b>Transcend Madison</b></h1>
-      <h3 id="heroSubtext" class="animated fadeIn fadeFirst">innovation competition</h3>
-      <p id="heroDesc" class="animated fadeIn fadeFirst">A cross-collaborative competition showcasing student innovations.</p></div>
-    </div>
-  </section>
-
+  {% include hero.html text=page.text desc=page.desc height=page.height subtext=page.subtext %}
   <section class="text-center section-padding" id="about">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 ">
           <div class="linesWordContainer">
-            <svg class="sectionLines" width="105px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle id="Oval-32" cx="7.5" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-            <h2 class="sectionHeader">What is it?</h2>
-
-            <svg class="sectionLines rightLine" width="135px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle cx="109" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
+            {% include sectionLines.html h="What is it?" %}
           </div>
           <div class="row">
             <div class="col-sm-8 col-sm-offset-2"><img src="../img/competition/comp_main.JPG" alt="Transcend Madison judges" class="img-responsive img-rounded"></div>
@@ -115,32 +51,7 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1 ">
           <div class="linesWordContainer">
-            <svg class="sectionLines" width="105px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle id="Oval-32" cx="7.5" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-            <h2 class="sectionHeader">2016 Competition</h2>
-
-            <svg class="sectionLines rightLine" width="135px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle cx="109" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
+             {% include sectionLines.html h="2016 Competition" %}
           </div>
           <div class="row img-row">
             <div class="col-sm-6 ">
@@ -159,32 +70,7 @@
             <br> In recent years, Matt has focused his attention to redefining what it means to own your music with his enterprise, Murfie. But Younkle emphasized that a great idea isn’t enough. It takes hard work and commitment to bring an idea to life, which is what Transcen Madison was developed to reward. We hope that our participants work doesn’t end with the competition, that this is just the beginning.</p>
           <br>
           <div class="linesWordContainer-sm">
-            <svg class="sectionLines" width="60px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle id="Oval-32" cx="7.5" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-            <h3 class="sectionSubheader">Winners</h3>
-
-            <svg class="sectionLines rightLine" width="70px" height="19px" viewbox="0 0 125 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle cx="109" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
+            {% include sectionLines.html h="Winners" %}
           </div>
           <a href="../winners/" class="sectionLink sectionSerif"> View all winner information</a>
           <br>
@@ -239,31 +125,7 @@
           <br>
           <br>
           <div class="linesWordContainer-sm">
-            <svg class="sectionLines" width="60px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle id="Oval-32" cx="7.5" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-            <h3 class="sectionSubheader">Press</h3>
-            <svg class="sectionLines rightLine" width="70px" height="19px" viewbox="0 0 125 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle cx="109" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
+            {% include sectionLines.html h="Press" %}
           </div>
           <p class="sectionSerif">The competition also recieved some press...</p>
           <br>
@@ -282,116 +144,9 @@
     </div>
   </section>
 
-  <section class="light-bg text-center section-padding" id="sponsors">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 ">
-          <div class="linesWordContainer">
-            <svg class="sectionLines" width="105px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle id="Oval-32" cx="7.5" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-            <h2 class="sectionHeader">Our Supporters</h2>
-            <svg class="sectionLines rightLine" width="135px" height="19px" viewbox="0 0 105 19" version="1.1">
-              <g id="Welcome2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                <g id="Desktop2" sketch:type="MSArtboardGroup" transform="translate(-121.000000, -1043.000000)" stroke="#06CBF9" stroke-width="3">
-                  <g id="two2" sketch:type="MSLayerGroup" transform="translate(0.000000, 983.000000)">
-                    <g id="section-lines-copy-2" transform="translate(123.000000, 62.000000)" sketch:type="MSShapeGroup">
-                      <path d="M15.5,7.5 L101.746094,7.5" id="Path-112" stroke-linecap="square" stroke-dasharray="14,10" transform="translate(58.500000, 7.500000) scale(-1, 1) translate(-58.500000, -7.500000) "></path>
-                      <circle cx="109" cy="7.5" r="7.5"></circle>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-          </div>
-
-          <p class="sectionSerif">The Transcend Madison competition is supported by the following (awesome) organizations:</p>
-
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <a href="http://www.gener8tor.com/" class="s-logos"><img src="../img/sponsors/generator.png" alt="gener8tor logo"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="http://www.madworkscoworking.org/" class="s-logos"><img class="" id="madworks" src="../img/sponsors/madworks.png" alt=""></a>
-        </div>
-        <div class="col-md-4">
-          <a href="http://www.capitalentrepreneurs.com/" class="s-logos"><img id="capital" src="../img/sponsors/captial-entrepreneurs.png" alt=""></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <a href="https://www.engr.wisc.edu/" class="s-logos"><img src="../img/sponsors/coe.gif" alt="" class="coe"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="http://4490.ventures/" class="s-logos"><img src="../img/sponsors/4490.png" alt="4490 Logo" class="fourfour"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://bus.wisc.edu/centers/weinert" class="s-logos"><img src="../img/sponsors/weinert.png" alt="" class="weinert"></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <a href="https://www.wceps.org/" class="s-logos"><img src="../img/sponsors/wceps.png" id="wceps" alt="WCEPS logo"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://www.zendesk.com/" class="s-logos"><img class="" id="zendesk" src="../img/sponsors/zendesk.png" alt="Zendesk logo"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="http://universityresearchpark.org/" class="s-logos"><img id="wrp" src="../img/sponsors/wrp.png" alt="URP logo"></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <a href="http://www.leewardba.com/" class="s-logos"><img id="leeward" src="../img/sponsors/leeward.png" alt="Leeward logo"></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="text-center" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 ">
-          <p>© <b>Transcend Engineering</b> - a registered student organization at
-            <a href="http://www.wisc.edu/" target="_blank"><img id="uwLogo" src="../img/uwlogo_web_sm_fl.png" alt="University of Wisconsin-Madison logo"></a>
-          </p>
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-58929703-4', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/main.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  {% include sponsors.html %}
+  {% include footer.html %}
+  {% include scripts.html %}
 
 </body>
 
