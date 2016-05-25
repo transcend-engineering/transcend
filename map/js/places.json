@@ -1,0 +1,2143 @@
+var DATA =
+ [
+
+    {
+     type: "Feature",
+     status: "Acquired",
+     url: "https://www.spredfast.com/shoutlet",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.3446088",
+            "43.0939915",
+     ]
+     },
+     properties: {
+           title: "Shoutlet",
+           description: "1 Erdman Place Suite #102  Madison, WI 53717",
+           'marker-size': 'medium',
+           'marker-color': getColor("Acquired"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Acquired",
+     url: "https://www.vidmaker.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "VidMaker",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Acquired"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Accelerator",
+     url: "gener8tor.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "gener8tor",
+           description: "30 W Mifflin Street 5th Floor Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Accelerator"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Accelerator",
+     url: "http://www.madworksaccelerator.org/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.409348",
+            "43.073143",
+     ]
+     },
+     properties: {
+           title: "Madworks Accelerator",
+           description: "1403 University Avenue  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Accelerator"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Accelerator",
+     url: "http://www.gbetawisconsin.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "gBETA",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Accelerator"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Accelerator",
+     url: "http://www.madcelerator.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.467726",
+            "43.011611",
+     ]
+     },
+     properties: {
+           title: "Madcelerator",
+           description: "2895 Commerce Park Dr.  Fitchburg, WI 53705",
+           'marker-size': 'medium',
+           'marker-color': getColor("Accelerator"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "transcend.engineering",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.413419",
+            "43.072703",
+     ]
+     },
+     properties: {
+           title: "Transcend",
+           description: "1550 Engineering Dr  Madison, WI 53706",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "https://www.uwle.org/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.409348",
+            "43.073143",
+     ]
+     },
+     properties: {
+           title: "Law and Entrepreneurship Clinic",
+           description: "1403 University Avenue  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "sector67.org",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.354538",
+            "43.093969",
+     ]
+     },
+     properties: {
+           title: "Sector67",
+           description: "2100 Winnebago St  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "http://www.doyennegroup.org/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.354548",
+            "43.093979",
+     ]
+     },
+     properties: {
+           title: "Doyenne Group",
+           description: "2100 Winnebago Street  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "http://www.capitalentrepreneurs.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Capital Entrepreneurs",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "http://merlinmentors.org/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.477057",
+            "43.056574",
+     ]
+     },
+     properties: {
+           title: "Merlin Mentors",
+           description: "5602 Research Park Blvd  Madison, WI 53719",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "https://www.codaworx.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.381012",
+            "43.074236",
+     ]
+     },
+     properties: {
+           title: "CODAworx",
+           description: "121 S Pinckney St #220 Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "http://greatermadisonchamber.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.377894",
+            "43.078664",
+     ]
+     },
+     properties: {
+           title: "Greater Madison Chamber of Commerce",
+           description: "615 East Washington Avenue P.O. Box 71 Madison, WI 53701-0071",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "http://www.madisonfractal.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.354528",
+            "43.093959",
+     ]
+     },
+     properties: {
+           title: "Fractal",
+           description: "2100 Winnebago St  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Incubator/Coworking Space",
+     url: "madventurescoworking.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.398653",
+            "43.072945",
+     ]
+     },
+     properties: {
+           title: "MadVentures",
+           description: "333 East Campus Mall 3rd Floor Madison, WI, 53715",
+           'marker-size': 'medium',
+           'marker-color': getColor("Incubator/Coworking Space"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Incubator/Coworking Space",
+     url: "http://www.madworkscoworking.org/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.476921",
+            "43.057796",
+     ]
+     },
+     properties: {
+           title: "Madworks Coworking",
+           description: "505 S. Rosa Road Suite 225 Madison, WI 53719",
+           'marker-size': 'medium',
+           'marker-color': getColor("Incubator/Coworking Space"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Incubator/Coworking Space",
+     url: "http://100state.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38539",
+            "43.075024",
+     ]
+     },
+     properties: {
+           title: "100State",
+           description: "30 W. Mifflin Street  6th Floor Madison, WI 53704",
+           'marker-size': 'medium',
+           'marker-color': getColor("Incubator/Coworking Space"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Incubator/Coworking Space",
+     url: "http://www.startingblockmadison.org/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "StartingBlock",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Incubator/Coworking Space"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Incubator/Coworking Space",
+     url: "http://horizoncw.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.383244",
+            "43.075971",
+     ]
+     },
+     properties: {
+           title: "Horizon Coworking",
+           description: "7 N Pinckney St #300 Madison, WI",
+           'marker-size': 'medium',
+           'marker-color': getColor("Incubator/Coworking Space"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.clemetric.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.476746",
+            "43.057488",
+     ]
+     },
+     properties: {
+           title: "Clemetric",
+           description: "510 Charmany Drive Suite 175M Madison, WI 53719",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.appliedtech.us/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.370407",
+            "43.080708",
+     ]
+     },
+     properties: {
+           title: "Applied Tech",
+           description: "203 S. Paterson  Suite 500  Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.ebullientcooling.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.366006",
+            "43.085479",
+     ]
+     },
+     properties: {
+           title: "Ebullient, LLC",
+           description: "100 S. Baldwin St. Suite 200 Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.archvirtual.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Arch Virtual",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.pinpointsoftware.co/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.29062",
+            "43.056987",
+     ]
+     },
+     properties: {
+           title: "Pinpoint Software",
+           description: "2820 Walton Cmns W Suite 118 Madison, WI 53718",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.healthfinch.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.530532",
+            "43.076332",
+     ]
+     },
+     properties: {
+           title: "HealthFinch",
+           description: "8517 Excelsior Drive Suite 403 Madison, WI",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "https://catalyze.io/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.388113",
+            "43.07284",
+     ]
+     },
+     properties: {
+           title: "Catalyze",
+           description: "316 W Washington Ave.  Suite 900 Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.stemina.com/web/index.php?option=com_content&view=article&id=6&Itemid=6",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.480966",
+            "43.058149",
+     ]
+     },
+     properties: {
+           title: "Stemina",
+           description: "504 South Rosa Road Suite 150 Madison, Wisconsin 53719",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.wellbe.me/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.523756",
+            "43.078173",
+     ]
+     },
+     properties: {
+           title: "Wellbe",
+           description: "8040 Excelsior Dr  Suite 402 Madison, WI 53717",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.rotowire.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.397612",
+            "43.068008",
+     ]
+     },
+     properties: {
+           title: "Rotowire",
+           description: "740 Regent St.  Suite 200 Madison, WI 53715",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://polco.us/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "POLCO",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.dattus.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.441468",
+            "43.075933",
+     ]
+     },
+     properties: {
+           title: "Dattus",
+           description: "8910 Purdue Rd  #680  Indianapolis, IN 46268",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.marvelmedtech.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.530062",
+            "43.090856",
+     ]
+     },
+     properties: {
+           title: "Marvel Medtech LLC",
+           description: "1600 Aspen Commons Suite 270 Middleton, WI 53562-4719",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://isomark.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.467468",
+            "43.058349",
+     ]
+     },
+     properties: {
+           title: "Isomark, LLC",
+           description: "455 Science Dr. Suite 155 Madison, WI 53711",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "https://singularity.io/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.476921",
+            "43.057796",
+     ]
+     },
+     properties: {
+           title: "Singularity",
+           description: "505 S. Rosa Road Suite 225 Madison, WI 53719",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://bdsmobiletech.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "BDS Mobile",
+           description: "  Madison, WI",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://thalchemy.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Thalchemy",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://telematic.io/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Telematic",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.tassoinc.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Tasso",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://invenra.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Invenra",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.branch2.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Branch2",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.virent.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Virent Energy Systems",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.oneeventtechnologies.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.733537",
+            "43.009058",
+     ]
+     },
+     properties: {
+           title: "oneEvent Technologies",
+           description: "502 Springsdale St.  Mt Horeb, WI 53572",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://www.hardindd.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Hardin Design and Development",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup",
+     url: "http://bendyworks.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Bendyworks",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "23vivi.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "23VIVI",
+           description: "30 West Mifflin Street  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://beekeeperdata.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Bee Keeper Data",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "exis.io",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Exis",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://openhomesrealty.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "OpenHomes",
+           description: "30 West Mifflin Street 5th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://quietyme.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "QuietTyme",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.admitsensei.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.391901",
+            "43.067571",
+     ]
+     },
+     properties: {
+           title: "Admit Sensai",
+           description: "615 W. Main St. Suite 306 Suite 306, Madison, WI 53703 ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "linectra.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Linectra",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://opennf.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "OpenNF",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://sciartsoft.com/#intro",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "SciArt LLC",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.emonix.io/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.333779",
+            "43.099572",
+     ]
+     },
+     properties: {
+           title: "Emonix",
+           description: "3249 Milwaukee Street  #1 Madison, WI 53714",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "seivatechnologies.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Seiva ",
+           description: "gBeta  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.tixora.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Tixora",
+           description: "gBeta  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.wintermute.us/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Voxxi",
+           description: "gBeta  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.weightupsolutions.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.333779",
+            "43.099572",
+     ]
+     },
+     properties: {
+           title: "WeightUp Solutions",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.ensodata.io/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.387558",
+            "43.074415",
+     ]
+     },
+     properties: {
+           title: "EnsoData",
+           description: "111 N Fairchild St  #240 Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "mobcraftbeer.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.305426",
+            "43.066497",
+     ]
+     },
+     properties: {
+           title: "Mobcraft",
+           description: "4539 Helgesen Dr  Madison, WI 53718",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://echo-metrix.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.523876",
+            "43.109989",
+     ]
+     },
+     properties: {
+           title: "Echometrix",
+           description: "8137 Forsythia St. Suite 138 ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://rowheels.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.467726",
+            "43.011611",
+     ]
+     },
+     properties: {
+           title: "Rowheels",
+           description: "2895 Commerce Park Dr   Fitchburg, WI 53719",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.docktechnologies.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Dock Technologies",
+           description: "30 West Mifflin Street 6th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.studyblue.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Study Blue",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://xolve.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.530062",
+            "43.090856",
+     ]
+     },
+     properties: {
+           title: "Xolve",
+           description: "1600 Aspen Commons Suite 101 Middleton, WI 53562",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://verdanterra.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.370354",
+            "43.080017",
+     ]
+     },
+     properties: {
+           title: "Verdanterra",
+           description: "305 S. Paterson Street  Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.field59.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Field59",
+           description: "30 West Mifflin Street 6th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.digsite.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Digsite Inc.",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://home.akitabox.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "AkitaBox",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://chefsforseniors.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Chefs for Seniors",
+           description: "  Sun Prairie, WI 53590",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://rallyenergy.co/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Rally Energy",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.updowntech.com/#/main",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Updown Technologies",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.healthmyne.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.533439",
+            "43.079052",
+     ]
+     },
+     properties: {
+           title: "HealthMyne",
+           description: "918 DEMING WAY  MADISON, WI 53717",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://getcheddah.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Cheddah",
+           description: "gBeta  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "propellerhealth.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.392724",
+            "43.067458",
+     ]
+     },
+     properties: {
+           title: "Propeller Health",
+           description: "634 West Main Street  Suite 102  Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://beta.snowshoestamp.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "SnowShoe",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.manifest.ly/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Manifestly",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.mobileigniter.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Mobile Igniter",
+           description: "30 W. Mifflin Street  #501 Madison, WI 53704",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.fishidy.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.528775",
+            "43.079797",
+     ]
+     },
+     properties: {
+           title: "Fishidy",
+           description: "8401 Excelsior Drive  Madison, WI 53717",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.quintbio.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.332515",
+            "43.107448",
+     ]
+     },
+     properties: {
+           title: "Quintessence Biosciences, Inc",
+           description: "3300 Commercial Avenue  Madison, Wisconsin 53714",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.fluxmopeds.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.394166",
+            "43.048064",
+     ]
+     },
+     properties: {
+           title: "Flux Mopeds",
+           description: "1718 S Park Street  Madison, WI — 53713",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.32auctions.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "32auctions",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.littlegreenpencil.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Little Green Pencil",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://snowforest.co/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.452215",
+            "43.070339",
+     ]
+     },
+     properties: {
+           title: "Snowforest",
+           description: "313 Price Place  Suite 5 Madison Wisconsin 53705",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://flextory.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.411996",
+            "43.063939",
+     ]
+     },
+     properties: {
+           title: "Flextory",
+           description: "1523 Chandler St  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.modmov.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Modern Movement",
+           description: "  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "altuscampus.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Altus Campus",
+           description: "30 West Mifflin Street Suite 404 ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://grocerkey.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.385799",
+            "43.074321",
+     ]
+     },
+     properties: {
+           title: "GrocerKey",
+           description: "16 N Carroll St  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://www.scanalyticsinc.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.40123",
+            "43.073052",
+     ]
+     },
+     properties: {
+           title: "Scanalytics",
+           description: "333 N. Plankinton Ave.  Suite 214 Milwaukee, WI 53203",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://www.sonicfoundry.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.386996",
+            "43.073336",
+     ]
+     },
+     properties: {
+           title: "Sonic Foundry",
+           description: "222 W Washington Ave  Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "abodo.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.39103",
+            "43.067943",
+     ]
+     },
+     properties: {
+           title: "Abodo",
+           description: "551 W Main St  Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://www.perblue.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.369598",
+            "43.080528",
+     ]
+     },
+     properties: {
+           title: "PerBlue",
+           description: "307 S Paterson St  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://ionicframework.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.381012",
+            "43.074236",
+     ]
+     },
+     properties: {
+           title: "Ionic",
+           description: "121 S Pinckney St  #300 ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://www.networkedinsights.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Networked Insights",
+           description: "350 N Orleans St  #850 Chicago, IL 60654",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "https://www.murfie.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.383244",
+            "43.075971",
+     ]
+     },
+     properties: {
+           title: "Murfie",
+           description: "7 N. Pinckney Street Suite 300  Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://earthlinginteractive.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.392724",
+            "43.067458",
+     ]
+     },
+     properties: {
+           title: "Earthling Interactive",
+           description: "634 W Main St. Ste 201 Madison, WI  53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://www.solomotechnology.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.386996",
+            "43.073336",
+     ]
+     },
+     properties: {
+           title: "Solomo",
+           description: "222 West Washington Ave Suite 705 Madison, WI",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "https://www.redoxengine.com/#/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Redox",
+           description: "30 W. Mifflin Street 6th Floor Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "http://www.fetchrewards.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "0",
+            "0",
+     ]
+     },
+     properties: {
+           title: "Fetch Rewards",
+           description: "16 N Carroll St  Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (50+ Employees)",
+     url: "zendesk.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.3821463",
+            "43.0755096",
+     ]
+     },
+     properties: {
+           title: "Zendesk",
+           description: "1 South Pinckney St. Suite  610 ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (50+ Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (50+ Employees)",
+     url: "https://www.miosoft.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.381998",
+            "43.074249",
+     ]
+     },
+     properties: {
+           title: "MIOsoft",
+           description: "33 E Main St  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (50+ Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (50+ Employees)",
+     url: "https://eatstreet.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.383144",
+            "43.07073",
+     ]
+     },
+     properties: {
+           title: "EatStreet",
+           description: "131 W Wilson St #400 ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (50+ Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Venture Capital",
+     url: "4490.ventures",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.387558",
+            "43.074415",
+     ]
+     },
+     properties: {
+           title: "4490 Ventures",
+           description: "111 NORTH FAIRCHILD STREET SUITE 240 Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Venture Capital"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Venture Capital",
+     url: "http://healthxventures.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.388558",
+            "43.075415",
+     ]
+     },
+     properties: {
+           title: "Healthx Ventures",
+           description: "111 NORTH FAIRCHILD STREET #240 ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Venture Capital"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Venture Capital",
+     url: "http://www.amfamventures.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.386558",
+            "43.073415",
+     ]
+     },
+     properties: {
+           title: "AmFam Ventures",
+           description: "111 N. Fairchild St. Suite 400 Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Venture Capital"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Venture Capital",
+     url: "http://badgerfundoffunds.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.374741",
+            "43.04082",
+     ]
+     },
+     properties: {
+           title: "Badger Fund of Funds",
+           description: "101 Nob Hill Rd.  Madison, WI 53713",
+           'marker-size': 'medium',
+           'marker-color': getColor("Venture Capital"), 
+     }
+  }
+
+]

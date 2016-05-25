@@ -1,0 +1,25 @@
+  http://www.convertcsv.com/csv-to-json.htm
+  template
+
+var DATA ={br} [{br}
+
+    {lb}
+     type: "Feature",
+     status: "{f3}",
+     url: "{f2}",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "{f12}",
+            "{f11}",
+     ]
+     },
+     properties: {
+           title: "{f1}",
+           description: "{f5} {f6} {f10}",
+           'marker-size': 'medium',
+           'marker-color': getColor("{f3}"), 
+     }
+  {rb}
+
+{br}]
