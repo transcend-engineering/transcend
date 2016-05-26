@@ -33,13 +33,22 @@ body{
 }
 
 #legend{
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 15px;
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
   left: 50%;
   background-color: white;
   z-index: 100;
   min-width: 800px;;
   transform: translateX(-50%);
+  opacity: 0.75;
+  border: 1px solid grey;
+}
+#legend:hover{
+  opacity: 1;
 }
 td{
   text-align: center;
