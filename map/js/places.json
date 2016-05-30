@@ -348,8 +348,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38539",
-            "43.075024",
+            "-89.38639",
+            "43.075124",
      ]
      },
      properties: {
