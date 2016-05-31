@@ -111,9 +111,6 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-#heroText {
-    font-family: 'Varela Round', sans-serif;
-}
 
 #heroSubtext {
     font-family: 'Varela Round', sans-serif;
@@ -145,11 +142,11 @@ body {
 }
 
 #heroText {
+    font-family: 'Varela Round', sans-serif;
     color: white;
     font-size: 3em;
     letter-spacing: -1px;
     margin-bottom: 0;
-    z-index: -1;
 }
 
 #heroSubtext {
@@ -225,8 +222,9 @@ body {
 }
 
 .heroContent {
-    margin-top: 75px;
+    margin-top: 120px;
     padding: 0 10px 0 10px;
+    z-index: -1;
 }
 
 /* --- about --*/
@@ -444,6 +442,9 @@ img.medium {
 #dropdownMenu1{
     color: white;
 }
+#dropdownMenu2{
+    color: white;
+}
 .dropdown-navLinks{
     color: #171D1C;
     z-index: 10;
@@ -452,6 +453,7 @@ img.medium {
     background-color: transparent;
     border: none;
     box-shadow: none;
+    z-index: 10;
 }
 .dropdown-menu li:hover{
     background-color: transparent;
@@ -626,6 +628,11 @@ img.medium {
   border: none;
   outline: 0; 
 }
+#dropdownMenu2{ 
+  background: none;
+  border: none;
+  outline: 0; 
+}
 button:active{
   box-shadow: none !important;
 }
@@ -637,3 +644,7 @@ button:active{
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
   background: none;
 }
+
+/*#abc{
+  margin-top: 50px; 
+}*/
