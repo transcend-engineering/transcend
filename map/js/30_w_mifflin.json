@@ -1,0 +1,249 @@
+var MIFFLIN = [
+	{
+     type: "Feature",
+     status: "Incubator/Coworking Space",
+     url: "http://100state.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38634",
+            "43.075119",
+     ]
+     },
+     properties: {
+           title: "100State",
+           description: "30 W. Mifflin Street  6th Floor Madison, WI 53704",
+           'marker-size': 'medium',
+           'marker-color': getColor("Incubator/Coworking Space"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "https://www.mobileigniter.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38644",
+            "43.075129",
+     ]
+     },
+     properties: {
+           title: "Mobile Igniter",
+           description: "30 W. Mifflin Street  #501 Madison, WI 53704",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (11 - 50 Employees)",
+     url: "https://www.redoxengine.com/#/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38624",
+            "43.075208",
+     ]
+     },
+     properties: {
+           title: "Redox",
+           description: "30 W. Mifflin Street 6th Floor Madison, WI 53703",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (11 - 50 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "23vivi.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38649",
+            "43.075172",
+     ]
+     },
+     properties: {
+           title: "23VIVI",
+           description: "30 West Mifflin Street  ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+,
+
+    {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://beekeeperdata.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38620",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "Bee Keeper Data",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://openhomesrealty.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075164",
+     ]
+     },
+     properties: {
+           title: "OpenHomes",
+           description: "30 West Mifflin Street 5th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "linectra.com",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075198",
+     ]
+     },
+     properties: {
+           title: "Linectra",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://opennf.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38630",
+            "43.075124",
+     ]
+     },
+     properties: {
+           title: "OpenNF",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://sciartsoft.com/#intro",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075110",
+     ]
+     },
+     properties: {
+           title: "SciArt LLC",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+{
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.weightupsolutions.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38647",
+            "43.07508",
+     ]
+     },
+     properties: {
+           title: "WeightUp Solutions",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.docktechnologies.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38632",
+            "43.07508",
+     ]
+     },
+     properties: {
+           title: "Dock Technologies",
+           description: "30 West Mifflin Street 6th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://www.field59.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38639",
+            "43.075058",
+     ]
+     },
+     properties: {
+           title: "Field59",
+           description: "30 West Mifflin Street 6th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  },
+
+  {
+     type: "Feature",
+     status: "Startup (1 - 10 Employees)",
+     url: "http://home.akitabox.com/",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.38659",
+            "43.075024",
+     ]
+     },
+     properties: {
+           title: "AkitaBox",
+           description: "30 West Mifflin Street 10th Floor ",
+           'marker-size': 'medium',
+           'marker-color': getColor("Startup (1 - 10 Employees)"), 
+     }
+  }
+]
