@@ -13,9 +13,9 @@ var handler = StripeCheckout.configure({
 $('#stripe_button').on('click', function(e) {
   // Open Checkout with further options:
   handler.open({
-    name: 'Entrepreneurship EQ',
+    name: 'Madison Entrepreneurship',
     description: '1 Spot on the Map',
-    amount: 1500
+    amount: 1000
   });
   e.preventDefault();
 });

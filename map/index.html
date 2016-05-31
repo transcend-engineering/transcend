@@ -19,14 +19,16 @@
         <script src="https://checkout.stripe.com/checkout.js"></script>
 
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/animate.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
     </head>
     <body>
         <div id="logo_wrapper">
-            <a target="_blank"><img id="logo" alt="Transcend" src="/img/squarelogov2banner.png"/></a>
+            <a target="_blank" href="http://transcend.engineering/"><img id="logo" alt="Transcend" src="/img/sticker_cutout_sm.png"/></a>
         </div>
+        <button class="btn btn-info animated pulse delay2" id="stripe_button">Want to be on this map?</button>
         <div id='legend'>
             <table>
                 <tr>
@@ -37,7 +39,7 @@
                         <span>All</span>
                     </td>   
                     <td>
-                        <img data-select='1' class="legend-img" src='img/pin-m+006600.png' alt='startup'>
+                        <img data-select='1' class="legend-img" id="startup" src='img/pin-m+006600.png' alt='startup'>
                     </td>
                     <td>
                         <span>Startup</span>

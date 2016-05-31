@@ -24,10 +24,9 @@ body{
 #logo{
   position: fixed;
   display: block;
-  top: 25px;
-  left: 60px;
+  top: 8px;
+  left: 90px;
   z-index: 100;
-  width: 300px;
 
   /*box-shadow: 0px 0px 40px #888888;*/
 }
@@ -69,6 +68,21 @@ textarea { resize:none; }
   filter: grayscale(100%);
 }
 
+#stripe_button{
+  position: fixed;
+  z-index: 100;
+  top: 120px;
+  left: 12px;
+}
+
+.delay2{
+  -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
 ./*my_popup{
 }
 */
