@@ -1,31 +1,35 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoibWZpeDIyIiwiYSI6IjZmNDIwZGZkOWI1ZDgwY2VkNGRkOTVjNjcwMTMxMDEyIn0.QnJDKEfnvhw8u0zVtWVRiw';
         var map = L.mapbox.map('map')
-            .setView([43.080788, -89.406], 12)
+            .setView([43.075124, -89.38639], 30)
+            // .setView([43.080788, -89.406], 12)
             .addLayer(L.mapbox.tileLayer('mapbox.streets'));	
-var MLayer = L.mapbox.featureLayer(DATA);
-MLayer.addTo(map);
+var MLayer = L.mapbox.featureLayer().addTo(map);
+
+MLayer.on('layeradd', function(e) {
+    var marker = e.layer,
+        feature = marker.feature;
+
+    // Create custom popup content
+    var popupContent =  '<a target="_blank"  class="popup" href="' + feature.url + '">' +
+                            feature.properties.title +
+                        '</a><br>' + feature.properties.description ;
+
+    // http://leafletjs.com/reference.html#popup
+    marker.bindPopup(popupContent,{
+        closeButton: true,
+        className: 'my_popup',
+        minWidth: 320
+    });
+});
+
+//set GeoJSON data
+MLayer.setGeoJSON(DATA);
+//add search functionality
 var client = L.mapbox.geocoderControl('mapbox.places');
 map.addControl(client);
+
+//local vars
 var filter;
-
-
-// var markers = new L.MarkerClusterGroup();
-
-// for (var i = 0; i < DATA.length; i++) {
-// 	console.log("1");
-//     var lat = parseFloat(DATA[i].geometry.coordinates[1]);
-// 	var lon = parseFloat(DATA[i].geometry.coordinates[0]);
-
-//     var title = DATA[i].properties.title;
-//     var marker = L.marker(new L.LatLng(lat, lon), {
-//         icon: L.mapbox.marker.icon({'marker-symbol': 'post', 'marker-color': '0044FF'}),
-//         title: title
-//     });
-//     marker.bindPopup(title);
-//     markers.addLayer(marker);
-// }
-
-// map.addLayer(markers);
 
 
 $('.legend-img').click(function(){

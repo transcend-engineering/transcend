@@ -48,7 +48,7 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
+            "-89.38655",
             "43.075124",
      ]
      },
@@ -348,8 +348,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
-            "43.075124",
+            "-89.38634",
+            "43.075119",
      ]
      },
      properties: {
@@ -908,8 +908,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
-            "43.075124",
+            "-89.38649",
+            "43.075172",
      ]
      },
      properties: {
@@ -928,7 +928,7 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
+            "-89.38620",
             "43.075124",
      ]
      },
@@ -941,25 +941,25 @@ var DATA =
   }
 ,
 
-    {
-     type: "Feature",
-     status: "Startup (1 - 10 Employees)",
-     url: "exis.io",
-     geometry: {
-            type: 'Point',
-            coordinates: [
-            "-89.38639",
-            "43.075124",
-     ]
-     },
-     properties: {
-           title: "Exis",
-           description: "30 West Mifflin Street 10th Floor ",
-           'marker-size': 'medium',
-           'marker-color': getColor("Startup (1 - 10 Employees)"), 
-     }
-  }
-,
+//     {
+//      type: "Feature",
+//      status: "Startup (1 - 10 Employees)",
+//      url: "exis.io",
+//      geometry: {
+//             type: 'Point',
+//             coordinates: [
+//             "-89.38639",
+//             "43.075124",
+//      ]
+//      },
+//      properties: {
+//            title: "Exis",
+//            description: "30 West Mifflin Street 10th Floor ",
+//            'marker-size': 'medium',
+//            'marker-color': getColor("Startup (1 - 10 Employees)"), 
+//      }
+//   }
+// ,
 
     {
      type: "Feature",
@@ -969,7 +969,7 @@ var DATA =
             type: 'Point',
             coordinates: [
             "-89.38639",
-            "43.075124",
+            "43.075164",
      ]
      },
      properties: {
@@ -1029,7 +1029,7 @@ var DATA =
             type: 'Point',
             coordinates: [
             "-89.38639",
-            "43.075124",
+            "43.075198",
      ]
      },
      properties: {
@@ -1048,7 +1048,7 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
+            "-89.38630",
             "43.075124",
      ]
      },
@@ -1069,7 +1069,7 @@ var DATA =
             type: 'Point',
             coordinates: [
             "-89.38639",
-            "43.075124",
+            "43.075110",
      ]
      },
      properties: {
@@ -1168,8 +1168,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.333779",
-            "43.099572",
+            "-89.38647",
+            "43.07508",
      ]
      },
      properties: {
@@ -1268,8 +1268,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
-            "43.075124",
+            "-89.38632",
+            "43.07508",
      ]
      },
      properties: {
@@ -1349,7 +1349,7 @@ var DATA =
             type: 'Point',
             coordinates: [
             "-89.38639",
-            "43.075124",
+            "43.075058",
      ]
      },
      properties: {
@@ -1388,8 +1388,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
-            "43.075124",
+            "-89.38659",
+            "43.075024",
      ]
      },
      properties: {
@@ -1568,8 +1568,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
-            "43.075124",
+            "-89.38644",
+            "43.075129",
      ]
      },
      properties: {
@@ -1748,8 +1748,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "-89.38639",
-            "43.075124",
+            "-89.38629",
+            "43.075024",
      ]
      },
      properties: {
@@ -1968,8 +1968,8 @@ var DATA =
      geometry: {
             type: 'Point',
             coordinates: [
-            "0",
-            "0",
+            "-89.38624",
+            "43.075208",
      ]
      },
      properties: {
