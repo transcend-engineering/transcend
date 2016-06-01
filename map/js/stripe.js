@@ -15,7 +15,9 @@ $('#stripe_button').on('click', function(e) {
   handler.open({
     name: 'Madison Entrepreneurship',
     description: '1 Spot on the Map',
-    amount: 1000
+    amount: 100,
+    zipCode: true,
+    billingAddress: true
   });
   e.preventDefault();
 });
