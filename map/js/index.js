@@ -2,7 +2,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWZpeDIyIiwiYSI6IjZmNDIwZGZkOWI1ZDgwY2VkNGRkO
         var map = L.mapbox.map('map')
             // .setView([43.075124, -89.38639], 30)
             .setView([43.080788, -89.406], 12)
-            .addLayer(L.mapbox.tileLayer('mapbox.streets'));	
+            .addLayer(L.mapbox.tileLayer('mapbox.light'));	
 var MLayer = L.mapbox.featureLayer().addTo(map);
 
 MLayer.on('layeradd', function(e) {
