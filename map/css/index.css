@@ -87,6 +87,11 @@ textarea { resize:none; }
 }
 */
 
-
+/* Extra Small Devices, Phones */
+@media (min-width: 700px){
+  #legend{
+    visibility: hidden;
+  }
+}
 
 
