@@ -44,7 +44,7 @@ var DATA =
     {
      type: "Feature",
      status: "Accelerator",
-     url: "gener8tor.com",
+     url: "http://www.gener8tor.com/",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -124,7 +124,7 @@ var DATA =
     {
      type: "Feature",
      status: "Entrepreneurial Resource",
-     url: "transcend.engineering",
+     url: "http://transcend.engineering",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -164,7 +164,7 @@ var DATA =
     {
      type: "Feature",
      status: "Entrepreneurial Resource",
-     url: "sector67.org",
+     url: "http://www.sector67.org/",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -304,7 +304,7 @@ var DATA =
     {
      type: "Feature",
      status: "Incubator/Coworking Space",
-     url: "madventurescoworking.com",
+     url: "http://madventurescoworking.com",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -904,7 +904,7 @@ var DATA =
     {
      type: "Feature",
      status: "Startup (1 - 10 Employees)",
-     url: "23vivi.com",
+     url: "http://23vivi.com/",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -1024,7 +1024,7 @@ var DATA =
     {
      type: "Feature",
      status: "Startup (1 - 10 Employees)",
-     url: "linectra.com",
+     url: "http://linectra.com",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -1104,7 +1104,7 @@ var DATA =
     {
      type: "Feature",
      status: "Startup (1 - 10 Employees)",
-     url: "seivatechnologies.com",
+     url: "http://seivatechnologies.com",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -1204,7 +1204,7 @@ var DATA =
     {
      type: "Feature",
      status: "Startup (1 - 10 Employees)",
-     url: "mobcraftbeer.com",
+     url: "http://mobcraftbeer.com/",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -1744,7 +1744,7 @@ var DATA =
     {
      type: "Feature",
      status: "Startup (11 - 50 Employees)",
-     url: "altuscampus.com",
+     url: "http://altuscampus.com",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -1824,7 +1824,7 @@ var DATA =
     {
      type: "Feature",
      status: "Startup (11 - 50 Employees)",
-     url: "abodo.com",
+     url: "http://abodo.com",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -2004,7 +2004,7 @@ var DATA =
     {
      type: "Feature",
      status: "Startup (50+ Employees)",
-     url: "zendesk.com",
+     url: "http://zendesk.com/",
      geometry: {
             type: 'Point',
             coordinates: [
@@ -2064,7 +2064,7 @@ var DATA =
     {
      type: "Feature",
      status: "Venture Capital",
-     url: "4490.ventures",
+     url: "http://4490.ventures/",
      geometry: {
             type: 'Point',
             coordinates: [
