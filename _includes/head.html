@@ -1,20 +1,3 @@
-<!--<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="shortcut icon" href="{{ "favicon.ico" | prepend: site.baseurl}}">
-  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Lato:500|Varela+Round|Noto+Serif:400,400italic|Open+Sans:700italic,700,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="{{ "css/animate.css" | prepend: site.baseurl }}">
-</head>-->
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title | escape }} | Transcend - UW Madison's Entrepreneurial Hub{% else %}{{ site.title | escape }}{% endif %}</title>
@@ -24,6 +7,7 @@
   <link rel="stylesheet" href="{{"css/bootstrap.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{"css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
   <link href="http://fonts.googleapis.com/css?family=Lato:500|Varela+Round|Noto+Serif:400,400italic|Open+Sans:700italic,700,400" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{"css/animate.css" | prepend: site.baseurl }}">
 </head>

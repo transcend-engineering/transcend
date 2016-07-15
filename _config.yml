@@ -16,6 +16,9 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://transcend.engineering" # the base hostname & protocol for your site
 twitter_username: witranscend
 github_username:  transcend-engineering
-
+sass:
+  sass_dir: _sass
 # Build settings
 markdown: kramdown
+# gems:
+#   - wdm
