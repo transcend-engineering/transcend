@@ -1,39 +1,22 @@
 ---
+layout: transcend_def
 title: Calendar
 text: Event Calendar
 desc: All of Madison's entrepreneurial events - aggregated into one, shareable calendar.
 height: 380px
 ---
-<!doctype html>
-<html class="no-js">
-
-{% include head.html %}
-
-<body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    {% include hero.html text=page.text desc=page.desc height=page.height %}
-    
-    <section class="text-center section-padding" id="about">
-        <div class="container">
-            <div class="row">
-                <p class="sectionSerif">Check out the official calendar here.</p>
-                <div class="col-md-8">
-                    <ol class="sectionText">
-                      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=transcenduw%40gmail.com&amp;color=%23125A12&amp;ctz=America%2FChicago" style="border-width:0" width="700" height="800" frameborder="0" scrolling="no"></iframe>
-                    </ol> 
-                </div>
-                <div class="col-md-4">
-                    <iframe src="http://www.zuntik.com/iframe/564924f8787c4a0709b8f106" style="border: 1px solid #78909c;" width="400" height="800"></iframe>
-                </div>
+<section class="text-center section-padding" id="about">
+    <div class="container">
+        <div class="row">
+            <p class="sectionSerif">Check out the official calendar here.</p>
+            <div class="col-md-8">
+                <ol class="sectionText">
+                  <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=800&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=transcenduw%40gmail.com&amp;color=%23125A12&amp;ctz=America%2FChicago" style="border-width:0" width="700" height="800" frameborder="0" scrolling="no"></iframe>
+                </ol>
+            </div>
+            <div class="col-md-4">
+                <iframe src="http://www.zuntik.com/iframe/564924f8787c4a0709b8f106" style="border: 1px solid #78909c;" width="400" height="800"></iframe>
             </div>
         </div>
-    </section>
-    
-    {% include footer.html %}
-    {% include scripts.html %}
-
-</body>
-
-</html>
+    </div>
+</section>
