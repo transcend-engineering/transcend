@@ -439,11 +439,11 @@ img.medium {
     -ms-filter: "FlipH";
 }
 
-#dropdownMenu1{
-    color: white;
-}
-#dropdownMenu2{
-    color: white;
+.my-dropdown {
+  color: white;
+  background: none;
+  border: none;
+  outline: 0;
 }
 .dropdown-navLinks{
     color: #171D1C;
@@ -644,3 +644,7 @@ button:active{
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
   background: none;
 }
+
+/*#abc{
+  margin-top: 50px;
+}*/
