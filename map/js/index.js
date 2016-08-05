@@ -2,7 +2,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWZpeDIyIiwiYSI6IjZmNDIwZGZkOWI1ZDgwY2VkNGRkO
         var map = L.mapbox.map('map')
             // .setView([43.075124, -89.38639], 30)
             .setView([43.080788, -89.406], 12)
-            .addLayer(L.mapbox.tileLayer('mapbox.streets'));	
+            .addLayer(L.mapbox.tileLayer('mapbox.streets'));
 var MLayer = L.mapbox.featureLayer().addTo(map);
 
 MLayer.on('layeradd', function(e) {
@@ -13,13 +13,20 @@ MLayer.on('layeradd', function(e) {
     var popupContent =  '<a target="_blank"  class="popup" href="' + feature.url + '">' +
                             feature.properties.title +
                         '</a><br>' + feature.properties.description ;
-
+    var popup2 = feature.properties.title
     // http://leafletjs.com/reference.html#popup
     marker.bindPopup(popupContent,{
         closeButton: true,
         className: 'my_popup',
         minWidth: 320
     });
+    // marker.on('mouseover', function (e) {
+    //     console.log(this);
+    //     this.openPopup();
+    // });
+    // marker.on('mouseout', function (e) {
+    //     this.closePopup();
+    // });
 });
 
 //set GeoJSON data
@@ -49,7 +56,7 @@ function filterMap (filterNum) {
 		$('.legend-img').addClass('greyscale');
 		$(filterNum).removeClass('greyscale');
 	}
-	
+
 
 	switch(n){
 		case 1:
