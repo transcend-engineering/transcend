@@ -1,0 +1,71 @@
+---
+---
+@charset "utf-8";
+// FONTS: Lato, Varela Round, Noto Serif, and Open Sans
+@import "http://fonts.googleapis.com/css?family=Lato:500|Varela+Round|Noto+Serif:400,400italic|Open+Sans:700italic,700,400";
+
+
+// COLORS
+// Need to reconcile these colors with brand
+$light-blue:         #1CA3C4;
+
+$brand-blue:         #0499BE;
+$brand-pink:         #F284A8;
+$pacific:            $brand-blue;
+$illusion:           $brand-pink;
+
+$cobalt:             #2E2E7F;
+$rich-black:         #00303B;
+
+$grey:               #999;
+$dark-grey:          #444;
+$charcoal:           #171D1C;
+
+
+$color-header:       $dark-grey;
+$color-link:         $cobalt;
+$color-bg:           $light-blue;
+$color-heroDesc:     $rich-black;
+
+$color-button:       #7CC7D8;
+$color-button-hover: darken($color-button, 3%);
+
+
+
+// FONTS
+  // sizes
+  $size-hero:          3em;
+  $size-header:        2em;
+  $size-subheader:     1.5em;
+  $size-text:          1.425em;
+  $size-footnotes:     10px;
+
+  // families
+  $font-sans:          'Open Sans', sans-serif;
+  $font-serif:         'Noto Serif', serif;
+  $font-varela:        'Varela Round', sans-serif;
+  $font-body:          $font-sans;
+  $font-subtext:       $font-varela;
+  $font-hero:          $font-varela;
+  $font-heroDesc:      $font-serif;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import 'bootstrap';
+@import 'helpers', 'animate';
+// pages
+@import 'base';
+@import 'pages', 'nav', 'hero', 'dash', 'sponsor', 'prizes', 'footer', 'team';
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+// @mixin media-query($device) {
+//     @media screen and (max-width: $device) {
+//         @content;
+//     }
+// }
