@@ -2,13 +2,9 @@
 <html class="no-js">
   {% include head.html %}
   <body>
-      {% include hero.html text=page.text desc=page.desc height=page.height %}
+      {% include hero.html text=page.text desc=page.desc height=page.height heroExtra=page.heroExtra subtext=page.subtext %}
 
-      <div class="page-content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </div>
+      {{ content }}
 
       {% include footer.html %}
       {% include scripts.html %}

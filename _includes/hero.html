@@ -1,10 +1,11 @@
 <section class="text-center" id="hero" style="height: {{include.height}};">
 	{% include nav.html %}
-	
+
 	<div class="heroContent ">
 		<div class="col-md-8 col-md-offset-2"><h1 id="heroText" class="animated fadeIn fadeFirst"><b>{{ include.text }}</b></h1>
 			<h3 id="heroSubtext" class="animated fadeIn fadeFirst">{{ include.subtext }}</h3>
 			<p id="heroDesc" class="animated fadeIn fadeFirst">{{ include.desc }}</p>
+			{{ include.heroExtra }}
 		</div>
 	</div>
 </section>

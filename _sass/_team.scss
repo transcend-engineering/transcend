@@ -1,0 +1,39 @@
+/* --- team --*/
+#team {
+  background-image: url("/img/bgPattern.png");
+  background-size: 500px 500px;
+  background-repeat: repeat;
+}
+
+#team .sectionHeader,
+#team .sectionText {
+  color: white;
+}
+
+#team .sectionSerif {
+  margin: 40px 0 20px;
+}
+
+.teamPic {
+  margin: 20px 0px 20px;
+}
+
+#teambox img{
+  height: 80%;
+  width: 80%;
+  max-height: 128px;
+  max-width: 128px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border-radius: 50%;
+}
+#teambox img:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}

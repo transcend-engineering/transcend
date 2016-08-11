@@ -1,24 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Transcend
 email: transcenduw@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # Transcend Engineering is a student organization dedicated to
+  inspiring, facilitating, and developing student innovations.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://transcend.engineering" # the base hostname & protocol for your site
 twitter_username: witranscend
 github_username:  transcend-engineering
 sass:
   sass_dir: _sass
+  style: compressed
 # Build settings
 markdown: kramdown
-# gems:
-#   - wdm

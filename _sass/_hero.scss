@@ -1,0 +1,64 @@
+/* --- hero -- */
+#hero {
+  height: 505px;
+  background: $color-bg;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#heroText {
+  color: white;
+  font-family: $font-hero;
+  font-size: $size-hero;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+#heroSubtext {
+  font-family: $font-hero;
+  color: white;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+#heroDesc {
+  color: $color-heroDesc;
+  font-size: $size-text;
+  font-family: $font-heroDesc;
+
+  margin: 40px 0 0 0;
+}
+
+@media only screen and (min-width: 375px) {
+  #hero {
+    height: 600px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #hero {
+    height: 555px;
+  }
+}
+
+
+@media only screen and (min-width: 653px) {
+  #hero {
+    height: 535px;
+  }
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #heroText b {
+    font-size: 1.5em;
+  }
+
+  #heroSubtext {
+    font-size: 2.5em;
+  }
+}

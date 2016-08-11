@@ -1,0 +1,88 @@
+/* nav */
+#logo {
+    margin: 25px auto -25px auto;
+}
+
+#navLinks {
+    display: none;
+    margin-top: 5px;
+}
+
+#navLinks a {
+    font-weight: 400;
+    font-size: 1.45em;
+    margin: 0 15px 0 15px;
+}
+
+#navLinks li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.my-dropdown{
+  background: none !important;
+  border: none !important;
+  outline: 0 !important;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
+  background: none;
+}
+
+.dropdown-navLinks{
+    color: #171D1C;
+    z-index: 10;
+}
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    z-index: 10;
+}
+.dropdown-menu li:hover{
+    background-color: transparent;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+    #navLogo {
+        position: absolute;
+        left: 7%;
+        top: -35%;
+    }
+
+    #navLinks {
+        display: block;
+        position: absolute;
+        right: 6%;
+    }
+
+    #logo {
+      margin: 0 auto;
+    }
+}
+
+/* nav links effect */
+.cl-effect-15 a {
+	color: rgba(0,0,0,0.2);
+	font-weight: 700;
+	text-shadow: none;
+}
+
+.cl-effect-15 a::before {
+	color: #fff;
+	content: attr(data-hover);
+    position: absolute;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.cl-effect-15 a:hover::before,
+.cl-effect-15 a:focus::before {
+	-webkit-transform: scale(0.975);
+	-moz-transform: scale(0.975);
+	transform: scale(0.975);
+	opacity: 0;
+}

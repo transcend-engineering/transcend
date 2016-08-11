@@ -1,140 +1,109 @@
 ---
+layout: default
+title:  Transcend
+height: 500px
+text: Transcend Engineering
+desc: UW-Madison's hub for creative thinking, entrepreneurship, and innovation.
+heroExtra: <a href="#join" class="btn sponsorBtnLink animated fadeIn fadeSecond">JOIN TRANSCEND</a></div>
 ---
-<!doctype html>
-<html class="no-js">
-
-{% include head.html %}
-
-<body>
-  <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-  <section class="text-center" id="hero">
-    {% include nav.html %}
-
-    <div class="heroContent ">
-      <!--TODO is this bootstrap column well formatted?-->
-      <div id="abc" class="col-md-8 col-md-offset-2"><h1 id="heroText" class="animated fadeIn fadeFirst"><b>Transcend Engineering</b></h1>
-            <h3 id="heroSubtext" class="animated fadeIn fadeFirst"></h3>
-            <p id="heroDesc" class="animated fadeIn fadeFirst">UW-Madison's hub for creative thinking, entrepreneurship, and innovation.</p>
-      <a href="#join" class="btn sponsorBtnLink animated fadeIn fadeSecond">JOIN TRANSCEND</a></div>
+<section class="text-center section-padding" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 ">
+        <div class="linesWordContainer">
+          {% include sectionLines.html h="What is Transcend?" %}
+        </div>
+        <p class="sectionSerif"> Our core concept is to inspire the Madison student community to create businesses and innovate ideas that will change the world.</p>
+        <br>
+        <p class="sectionText"><b>Transcend</b> is a student organization focused on providing invaluable resources and opportunities to students on campus who are interested in creating their own ventures. We do not limit our member’s ideas to tech, mobile applications or purely entrepreneurial ventures; instead we encourage collaboration between majors and focuses which we hope inspires start up ideas that can change the world. Our utility comes from the vast network of alumni and professionals from the Madison area and beyond which we tap regularly for inspiring talks and informative workshops that our members can utilize to expand their knowledge beyond their curriculum and hopefully apply it towards innovation. Our impact goes beyond the resources we provide and the knowledge we impart to our members.</p>
+      </div>
     </div>
+  </div>
+</section>
 
-  </section>
+<section class="text-center section-padding" id="join">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 ">
+        <div class="linesWordContainer">
+          {% include sectionLines.html h="Join Transcend" %}
+        </div>
+        <h3 id="sponsorApply">Fill out this form to join our mailing list!</h3>
 
-  <section class="text-center section-padding" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 ">
-          <div class="linesWordContainer">
-            {% include sectionLines.html h="What is Transcend?" %}
-          </div>
-          <p class="sectionSerif"> Our core concept is to inspire the Madison student community to create businesses and innovate ideas that will change the world.</p>
-          <br>
-          <p class="sectionText"><b>Transcend</b> is a student organization focused on providing invaluable resources and opportunities to students on campus who are interested in creating their own ventures. We do not limit our member’s ideas to tech, mobile applications or purely entrepreneurial ventures; instead we encourage collaboration between majors and focuses which we hope inspires start up ideas that can change the world. Our utility comes from the vast network of alumni and professionals from the Madison area and beyond which we tap regularly for inspiring talks and informative workshops that our members can utilize to expand their knowledge beyond their curriculum and hopefully apply it towards innovation. Our impact goes beyond the resources we provide and the knowledge we impart to our members.</p>
+        <div class="typeform-widget" data-url="https://transcend1.typeform.com/to/T43WVj" data-text="Registration Form" style="width:100%;height:500px;"></div>
+        <script>
+          (function () {
+            var qs, js, q, s, d = document,
+              gi = d.getElementById,
+              ce = d.createElement,
+              gt = d.getElementsByTagName,
+              id = 'typef_orm',
+              b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+            if (!gi.call(d, id)) {
+              js = ce.call(d, 'script');
+              js.id = id;
+              js.src = b + 'widget.js';
+              q = gt.call(d, 'script')[0];
+              q.parentNode.insertBefore(js, q)
+            }
+          })()
+        </script>
+        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_T43WVj&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="text-center section-padding" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 ">
+        <div class="linesWordContainer">
+          {% include sectionLines.html h="The Team" %}
+        </div>
+        <p class="sectionText"><i>Transcend Engineering</i> is a student org dedicated to driving student innovation, in any major. We act as a student project hub on campus - providing resources and mentorship for the doers on campus that are creating inventions, apps, startups, and more.
+        </p>
+        <p class="sectionSerif">If innovative ideas keep you up at night, Transcend is the club for you.</p>
+      </div>
+    </div>
+    <div class="row teamPic">
+      <div class="col-md-8 col-md-offset-2 " id="teambox">
+        <div class="col-sm-4 col-xs-6">
+          <a href="https://www.linkedin.com/pub/zack-bahner/9b/46a/b33" target="_blank"><img src="img/team/zack.png" width="128px" height="128px" alt="Zack Bahner" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="http://cadencebambenek.com" target="_blank"><img src="img/team/cadence.png" width="128px" height="128px" alt="Cadence Babanek" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="http://www.jakedex.com" target="_blank"><img src="img/team/jake.png" width="128px" height="128px" alt="Jake Dexheimer" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="http://briandennis.io" target="_blank"><img src="img/team/brian.png" width="128px" height="128px" alt="Brian Dennis" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="http://xiaojunhe.com" target="_blank"><img src="img/team/xiao.png" width="128px" height="128px" alt="Xiaojun He" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="https://www.linkedin.com/in/scottcatlin" target="_blank"><img src="img/team/scott.png" width="128px" height="128px" alt="Scott Catlin" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="https://www.linkedin.com/in/jtcho3" target="_blank"><img src="img/team/james.png" width="128px" height="128px" alt="James Cho" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="http://abhayvenkatesh.com" target="_blank"><img src="img/team/abhay.jpg" width="128px" height="128px" alt="Abhay" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="https://www.linkedin.com/in/maying-shi-7425aa96" target="_blank"><img src="img/team/matt.jpg" width="128px" height="128px" alt="Matt Shi" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="" target="_blank"><img src="img/team/alex_r.jpg" width="128px" height="128px" alt="Alex Rogers" class="teamPic"></a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <a href="https://twitter.com/fixitup2" target="_blank"><img src="img/team/mike.png" width="128px" height="128px" alt="Mike Fix" class="teamPic"></a>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="text-center section-padding" id="join">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 ">
-          <div class="linesWordContainer">
-            {% include sectionLines.html h="Join Transcend" %}
-          </div>
-          <h3 id="sponsorApply">Fill out this form to join our mailing list!</h3>
-          
-          <div class="typeform-widget" data-url="https://transcend1.typeform.com/to/T43WVj" data-text="Registration Form" style="width:100%;height:500px;"></div>
-          <script>
-            (function () {
-              var qs, js, q, s, d = document,
-                gi = d.getElementById,
-                ce = d.createElement,
-                gt = d.getElementsByTagName,
-                id = 'typef_orm',
-                b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-              if (!gi.call(d, id)) {
-                js = ce.call(d, 'script');
-                js.id = id;
-                js.src = b + 'widget.js';
-                q = gt.call(d, 'script')[0];
-                q.parentNode.insertBefore(js, q)
-              }
-            })()
-          </script>
-          <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_T43WVj&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="text-center section-padding" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 ">
-          <div class="linesWordContainer">
-            {% include sectionLines.html h="The Team" %}
-          </div>
-          <p class="sectionText"><i>Transcend Engineering</i> is a student org dedicated to driving student innovation, in any major. We act as a student project hub on campus - providing resources and mentorship for the doers on campus that are creating inventions, apps, startups, and more.
-          </p>
-          <p class="sectionSerif">If innovative ideas keep you up at night, Transcend is the club for you.</p>
-        </div>
-      </div>
-      <div class="row teamPic">
-        <div class="col-md-8 col-md-offset-2 " id="teambox">
-          <div class="col-sm-4 col-xs-6">
-            <a href="https://twitter.com/fixitup2" target="_blank"><img src="img/team/mike.png" width="128px" height="128px" alt="Mike Fix" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="https://www.linkedin.com/pub/zack-bahner/9b/46a/b33" target="_blank"><img src="img/team/zack.png" width="128px" height="128px" alt="Zack Bahner" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="https://www.linkedin.com/in/alexvalaitis" target="_blank"><img src="img/team/alex.jpg" width="128px" height="128px" alt="Alex Valaitis" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="http://www.jakedex.com" target="_blank"><img src="img/team/jake.png" width="128px" height="128px" alt="Jake Dexheimer" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="http://briandennis.io" target="_blank"><img src="img/team/brian.png" width="128px" height="128px" alt="Brian Dennis" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="http://xiaojunhe.com" target="_blank"><img src="img/team/xiao.png" width="128px" height="128px" alt="Xiaojun He" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="https://www.linkedin.com/in/scottcatlin" target="_blank"><img src="img/team/scott.png" width="128px" height="128px" alt="Scott Catlin" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="http://cadencebambenek.com" target="_blank"><img src="img/team/cadence.png" width="128px" height="128px" alt="Cadence Babanek" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="https://www.linkedin.com/in/jtcho3" target="_blank"><img src="img/team/james.png" width="128px" height="128px" alt="James Cho" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="https://www.linkedin.com/in/christiankrueger" target="_blank"><img src="img/team/christian.jpg" width="128px" height="128px" alt="Christian" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="http://abhayvenkatesh.com" target="_blank"><img src="img/team/abhay.jpg" width="128px" height="128px" alt="Abhay" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="https://www.linkedin.com/in/maying-shi-7425aa96" target="_blank"><img src="img/team/matt.jpg" width="128px" height="128px" alt="Matt Shi" class="teamPic"></a>
-          </div>
-          <div class="col-sm-4 col-xs-6">
-            <a href="" target="_blank"><img src="img/team/alex_r.jpg" width="128px" height="128px" alt="Alex Rogers" class="teamPic"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-  {% include footer.html %}
-  {% include scripts.html %}
-
-</body>
-
-</html>
+  </div>
+</section>
