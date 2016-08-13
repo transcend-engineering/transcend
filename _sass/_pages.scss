@@ -105,55 +105,21 @@
 }
 
 /* --- about --*/
-#sketch {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 500px;
-
-  pointer-events: none;
-  margin-bottom: 30px;
-}
-
-#sketch-sm {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 200px;
-
-  pointer-events: none;
-  margin-bottom: 30px;
-}
-
-#about {
+.about {
   background: white;
-}
 
-#about .sectionSerif {
-  margin-top: 0;
-  margin-bottom: 40px;
+  .sectionSerif {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
 }
 
 .exhibits {
   margin-bottom: 40px;
 }
 
-#winningLines {
-  float: left;
-}
-
-#winningList {
-  margin: 0;
-}
-
-#winningList li {
-  margin: 17px 0 17px 0;
-  font-size: 1.3em;
-}
-
 
 /* --- 2016 --- */
-small {
-  color: white !important;
-}
 .press-link img {
   max-height: 200px;
 }
@@ -218,5 +184,5 @@ img.medium {
 
 // /* Small Devices, Tablets */
 // @media only screen and (min-width: 768px) {
-//
+
 // }
