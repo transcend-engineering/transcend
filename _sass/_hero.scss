@@ -1,13 +1,21 @@
 /* --- hero -- */
-#hero {
-  height: 505px;
+.hero {
   background: $color-bg;
-
-  padding-top: 40px;
-  padding-bottom: 40px;
+  height: auto;
+  padding: 40px 0px;
 }
 
-#heroText {
+.heroContent {
+  // margin-top: 120px;
+  width: 100%;
+  padding: 0 10px 0 10px;
+  z-index: -1;
+  clear: both;
+  display: table;
+  margin: 120px auto 0px auto;
+}
+
+.heroText {
   color: white;
   font-family: $font-hero;
   font-size: $size-hero;
@@ -15,14 +23,14 @@
   margin-bottom: 0;
 }
 
-#heroSubtext {
+.heroSubtext {
   font-family: $font-hero;
   color: white;
   font-weight: 500;
   margin-top: 1px;
 }
 
-#heroDesc {
+.heroDesc {
   color: $color-heroDesc;
   font-size: $size-text;
   font-family: $font-heroDesc;
@@ -30,35 +38,13 @@
   margin: 40px 0 0 0;
 }
 
-@media only screen and (min-width: 375px) {
-  #hero {
-    height: 600px;
-  }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  #hero {
-    height: 555px;
-  }
-}
-
-
-@media only screen and (min-width: 653px) {
-  #hero {
-    height: 535px;
-  }
-}
-
-
-
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  #heroText b {
+  .heroText b {
     font-size: 1.5em;
   }
 
-  #heroSubtext {
+  .heroSubtext {
     font-size: 2.5em;
   }
 }
