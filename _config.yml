@@ -7,6 +7,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://transcend.engineering" # the base hostname & protocol for your site
 twitter_username: witranscend
 github_username:  transcend-engineering
+facebook_username: transcendwi
+email_address: transcenduw@gmail.com
 sass:
   sass_dir: _sass
   style: compressed
