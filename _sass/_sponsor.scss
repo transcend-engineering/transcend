@@ -9,6 +9,16 @@
   height: 120px;
 }
 
+.s-logo-words {
+  display: inline-block;
+  margin: 0px 30px 30px;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .s-logos img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
