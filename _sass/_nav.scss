@@ -1,4 +1,8 @@
 /* nav */
+.navbar {
+  z-index: 99;
+}
+
 #logo {
     margin: 25px auto -25px auto;
     width: 80px;
@@ -10,9 +14,9 @@
 }
 
 #navLinks a {
+    margin: 0 15px 0 15px;
     font-weight: 400;
     font-size: 1.45em;
-    margin: 0 15px 0 15px;
 }
 
 #navLinks li {
@@ -21,9 +25,9 @@
 }
 
 .my-dropdown{
-  background: none !important;
-  border: none !important;
   outline: 0 !important;
+  border: none !important;
+  background: none !important;
 }
 
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
@@ -31,14 +35,14 @@
 }
 
 .dropdown-navLinks{
-    color: #171D1C;
     z-index: 10;
+    color: #171D1C;
 }
 .dropdown-menu{
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
     z-index: 10;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
 }
 .dropdown-menu li:hover{
     background-color: transparent;
@@ -46,17 +50,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-
     #navLogo {
         position: absolute;
-        left: 7%;
         top: -35%;
+        left: 7%;
     }
 
     #navLinks {
-        display: block;
         position: absolute;
         right: 6%;
+        display: block;
     }
 
     #logo {
@@ -67,14 +70,14 @@
 /* nav links effect */
 .cl-effect-15 a {
 	color: rgba(0,0,0,0.2);
-	font-weight: 700;
 	text-shadow: none;
+	font-weight: 700;
 }
 
 .cl-effect-15 a::before {
+    position: absolute;
 	color: #fff;
 	content: attr(data-hover);
-    position: absolute;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
@@ -82,8 +85,8 @@
 
 .cl-effect-15 a:hover::before,
 .cl-effect-15 a:focus::before {
+	opacity: 0;
 	-webkit-transform: scale(0.975);
 	-moz-transform: scale(0.975);
 	transform: scale(0.975);
-	opacity: 0;
 }
