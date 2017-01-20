@@ -38,12 +38,14 @@
     z-index: 10;
     color: #171D1C;
 }
+
 .dropdown-menu{
-    z-index: 10;
+    z-index: 1000;
     border: none;
     background-color: transparent;
     box-shadow: none;
 }
+
 .dropdown-menu li:hover{
     background-color: transparent;
 }
