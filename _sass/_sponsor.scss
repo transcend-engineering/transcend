@@ -5,13 +5,11 @@
 
 .s-logos {
   display: block;
-  margin: 30px auto;
-  height: 120px;
+  margin: 120px auto;
 }
 
 .s-logo-words {
   display: inline-block;
-  margin: 0px 30px 30px;
   font-size: 18px;
   text-align: center;
   vertical-align: middle;
@@ -19,9 +17,16 @@
   transform: translateY(-50%);
 }
 
-.s-logos img {
+.s-logo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.zendesk {
+  width: 75%;
 }
 
 #sponsors {
