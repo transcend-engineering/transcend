@@ -1,41 +1,57 @@
-<nav class="navbar animated fadeIn fadeSecond">
+<nav class="navbar navbar-default animated fadeIn fadeSecond" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+
+		</div><!-- navbar-header -->
+
+
+	<div id="navLinks" class="container cl-effect-15">
+
+
+
+		<div class="collapse navbar-collapse" id="collapse">
+			<ul>
+				<li style="padding-top: 8px;"><script async defer src="https://transcend.now.sh/slackin.js?"></script></li>
+				<li><a href="https://medium.com/@witranscend" class="dropdown-navLinks" data-hover="blog">blog</a></li>
+				<li>
+					<div class="dropdown">
+						<button class="my-dropdown btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<a  class="dropdown-navLinks" data-hover="resources">resources <span class="caret"></span></a>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a href="/calendar" class="dropdown-navLinks" data-hover="calendar">calendar</a></li>
+							<li><a href="/hackathon" class="dropdown-navLinks" data-hover="hackathon">hackathon</a></li>
+							<li><a href="https://goo.gl/forms/uGzozzQqPkxz2cI52" class="dropdown-navLinks" data-hover="mentorship">mentorship</a></li>
+							<li><a href="/map" class="dropdown-navLinks" data-hover="entrepreneurship map">entrepreneurship map</a></li>
+							<li><a href="/timeline/timeline-v1.0.1.pdf" class="dropdown-navLinks" data-hover="timeline">timeline</a></li>
+							<!-- <li><a href="/scholarship" class="dropdown-navLinks" data-hover="scholarship">scholarship</a></li> -->
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<button class="my-dropdown btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<a  class="dropdown-navLinks" data-hover="competition">competition <span class="caret"></span></a>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						<li><a href="/competition" class="dropdown-navLinks" data-hover="about">about</a></li>
+						<li><a href="/guidelines" class="dropdown-navLinks" data-hover="guidelines">guidelines</a></li>
+						<li><a href="/prizes" class="dropdown-navLinks" data-hover="prizes">prizes</a></li>
+						<li><a href="/sponsor" class="dropdown-navLinks" data-hover="sponsor">sponsor</a></li>
+						<li><a href="/winners" class="dropdown-navLinks" data-hover="2016 winners">2016 winners</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div><!-- collapse navbar-collapse -->
+	</div><!-- container -->
 	<div id="navLogo">
 	<a href="/">
 		<img id="logo" class="" src="{{ page.logo | prepend: site.baseurl }}" alt="Transcend Logo">
 	</div></a>
-	<div id="navLinks" class="cl-effect-15">
-	<ul>
-		<li style="padding-top: 8px;"><script async defer src="https://transcend.now.sh/slackin.js?"></script></li>
-		<li><a href="https://medium.com/@witranscend" class="dropdown-navLinks" data-hover="blog">blog</a></li>
-		<li>
-			<div class="dropdown">
-				<button class="my-dropdown btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				<a  class="dropdown-navLinks" data-hover="resources">resources <span class="caret"></span></a>
-				</button>
-				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-					<li><a href="/calendar" class="dropdown-navLinks" data-hover="calendar">calendar</a></li>
-					<li><a href="/hackathon" class="dropdown-navLinks" data-hover="hackathon">hackathon</a></li>
-					<li><a href="https://goo.gl/forms/uGzozzQqPkxz2cI52" class="dropdown-navLinks" data-hover="mentorship">mentorship</a></li>
-					<li><a href="/map" class="dropdown-navLinks" data-hover="entrepreneurship map">entrepreneurship map</a></li>
-					<li><a href="/timeline/timeline-v1.0.1.pdf" class="dropdown-navLinks" data-hover="timeline">timeline</a></li>
-					<!-- <li><a href="/scholarship" class="dropdown-navLinks" data-hover="scholarship">scholarship</a></li> -->
-				</ul>
-			</div>
-		</li>
-		<li>
-			<div class="dropdown">
-				<button class="my-dropdown btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				<a  class="dropdown-navLinks" data-hover="competition">competition <span class="caret"></span></a>
-				</button>
-				<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-				<li><a href="/competition" class="dropdown-navLinks" data-hover="about">about</a></li>
-				<li><a href="/guidelines" class="dropdown-navLinks" data-hover="guidelines">guidelines</a></li>
-				<li><a href="/prizes" class="dropdown-navLinks" data-hover="prizes">prizes</a></li>
-				<li><a href="/sponsor" class="dropdown-navLinks" data-hover="sponsor">sponsor</a></li>
-				<li><a href="/winners" class="dropdown-navLinks" data-hover="2016 winners">2016 winners</a></li>
-				</ul>
-			</div>
-		</li>
-	</ul>
-	</div>
 </nav>
