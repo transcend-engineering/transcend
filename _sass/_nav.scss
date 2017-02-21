@@ -33,9 +33,12 @@
   background: transparent;
   text-shadow: none;
 }
-/**  Navbar Toggle **/
+/**  Navbar Toggle PINK **/
 .navbar-toggle {
-  background-color: #279182;
+  background-color: #f182a9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
 }
 
 
