@@ -18,11 +18,24 @@
 }
 
 .s-logo {
+  max-width: 260px;
   display: block;
   width: 100%;
   margin: 0 auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.qbe {
+  width: 70%;
+}
+
+.s-logo_medium {
+  max-width: 400px;
+}
+
+.qualcomm-sponsor {
+  max-width: 550px;
 }
 
 .zendesk {
@@ -31,6 +44,10 @@
 
 #sponsors {
   background: #F4F4F4;
+
+  h3 {
+    font-weight: bold;
+  }
 }
 
 #sponsors .sectionSerif {
