@@ -54,7 +54,7 @@ $color-button-hover: darken($color-button, 3%);
 @import 'helpers', 'animate';
 // pages
 @import 'base';
-@import 'pages', 'nav', 'hero', 'dash', 'sponsor', 'prizes', 'footer', 'team';
+@import 'pages', 'nav', 'hero', 'dash', 'sponsor', 'prizes', 'footer', 'team', 'judges';
 
 
 // Use media queries like this:
