@@ -37,3 +37,36 @@
   filter: FlipH;
   -ms-filter: "FlipH";
 }
+
+
+
+/* --- contactus --*/
+#contactDesc {
+  text-align: center;
+}
+#contact{
+  background-size: cover;
+  text-align: center;
+
+}
+#contact img.icon {
+  text-align: center;
+  display: block;
+  margin: 5px auto;
+  width: 120px;
+}
+.contact_title {
+  font-size: 1.5em;
+  color: skyblue;
+}
+
+input{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
