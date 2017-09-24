@@ -1,0 +1,27 @@
+<div class="row" id= "contact"></divclass>
+    <form class="col-lg-12" id="contact-form" method="POST">
+        <div class ='row col-lg-12'>
+            <div class="row col-lg-4 col-lg-offset-2">
+                <label class= "contact_title" for="name" style="font-weight:normal;">Your name:</label><br />
+                <input type="text" name="name" placeholder="" type="text" size="35" /><br />
+            </div>
+            <div class="row col-lg-4">
+                <label class= "contact_title" for="email" style="font-weight:normal;">Your email:</label><br />
+                <input type="email" name="_replyto" placeholder="" size="35">
+            </div>
+            <div class="col-lg-2">
+            </div>
+        </div>
+        <div class="row col-lg-12">
+            <label class= "contact_title" for="message" style="font-weight:normal;">Your message:</label><br />
+            <textarea name="message" placeholder=""rows="10" cols="45"></textarea><br />
+            <input type="text" name="_gotcha" style="display:none" />
+        </div>
+
+            <input class="row col-lg-2 col-lg-offset-5" type="submit" value="Send email">
+    </form>
+    <script>
+        var contactform =  document.getElementById('contact-form');
+        contactform.setAttribute('action', 'https://formspree.io/' + 'transcenduw' + '@' + 'gmail' + '.' + 'com');
+    </script>
+</div>
