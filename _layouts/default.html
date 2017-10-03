@@ -1,5 +1,14 @@
 <!doctype html>
 <html class="no-js">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src=“https://www.googletagmanager.com/gtag/js?id=UA-107410476-1“></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag(‘js’, new Date());
+
+  gtag(‘config’, ‘UA-107410476-1’);
+  </script>
   {% include head.html %}
   <body>
       {% include hero.html text=page.text desc=page.desc heroExtra=page.heroExtra subtext=page.subtext %}
