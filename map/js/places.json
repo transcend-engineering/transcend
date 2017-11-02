@@ -220,6 +220,26 @@ var DATA =
      }
   }
 ,
+  
+  {
+     type: "Feature",
+     status: "Entrepreneurial Resource",
+     url: "https://researchguides.library.wisc.edu/patents",
+     geometry: {
+            type: 'Point',
+            coordinates: [
+            "-89.413372",
+            "43.076105",
+     ]
+     },
+     properties: {
+           title: "Patent & Trademark Resource Center",
+           description: "Steenbock Library, Rm. 118",
+           'marker-size': 'medium',
+           'marker-color': getColor("Entrepreneurial Resource"), 
+     }
+  }
+,
 
     {
      type: "Feature",
